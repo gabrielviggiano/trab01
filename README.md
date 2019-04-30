@@ -23,19 +23,16 @@ Este documento contém a especificação do projeto do banco de dados <b>E-xames
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 <h3>Segue em anexo ao link o Mockup realizado para o ambiente mobile do aplicativo E-Xames.</h3><br>
-
 ![Arquivo PDF do Protótipo Balsamiq feito para E-Xames Online](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/Mobile_Exames.pdf?raw=true "E-Xames Online")
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+> A Empresa E-Xames precisa inicialmente dos seguintes relatórios:
+* Relatório que informe quais são os médicos já cadastrados no sistema, com as seguintes informações: Nome, CPF, número do CRM, especialidade, e-mail para contato.
+* Relatório do laboratório (cliente), contendo: Nome fantasia, CNPJ, endereço SEDE, telefone.
+* Relatório de exames realizados, contendo: Tipo do exame, Médico Vinculado, Unidade, Data e Horário que foi realizado, Laboratório, Preço.
+* Relatório de exames pré-agendados, contendo: Tipo de exame, Médico Vinculado (se houver), unidade, data e horário agendado, preço do exame.
+* Relatório de exames pendentes, são exames que apenas o médico solicitou e que aguarda agendamento do paciente, para isso é necessário as seguintes informações: Tipo de exame, médico vinculado.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
