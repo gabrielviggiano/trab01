@@ -41,6 +41,7 @@ Este documento contém a especificação do projeto do banco de dados <b>E-xames
 ![Tabela de dados da empresa E-Xames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/tabela_de_dados.xlsx?raw=true "Tabela - Empresa E-Xames")
 
 ![Tabela de dados normalizada da empresa E-Xames] (https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/tabela_de_dados_normalizada.xlsx?raw=true	"Tabela - Empresa E-Xames")
+
     
 >## Marco de Entrega 01 em:<br>
 
