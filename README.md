@@ -11,7 +11,11 @@ Renato Bellumat: renato.bellumat@hotmail.com<br>
 Ícaro Gandine: icarog28@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
+<<<<<<< HEAD
 Este documento contém a especificação do projeto do banco de dados E-Xames Online 
+=======
+Este documento contém a especificação do projeto do banco de dados E-xames Online 
+>>>>>>> 7f406fde393d483b439ab09c728b4ba4bd6636b5
 <br>e motivação da escolha realizada. <br>
 
 > A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
