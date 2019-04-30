@@ -52,7 +52,7 @@ Este documento contém a especificação do projeto do banco de dados <b>E-xames
     
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
+    [TrashMe]: [Brian Icaro Diaz Marques, Ramon Kazushi Cossual Sakurada, Pedro Cruz Nunes Silva, Marcelo Oliveira]
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
