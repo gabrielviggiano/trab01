@@ -6,7 +6,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Gabriel Viggiano Fonseca: gviggianofonseca@gmail.com<br>
-Morgana Vettorazzi:morgana.vettorazzi@hotmail.com<br>
+Morgana Vettorazzi: morgana.vettorazzi@hotmail.com<br>
 Renato Bellumat: renato.bellumat@hotmail.com<br>
 Ícaro Gandine: icarog28@gmail.com<br>
 
@@ -29,10 +29,10 @@ Este documento contém a especificação do projeto do banco de dados <b>E-xames
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
 > A Empresa E-Xames precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os médicos já cadastrados no sistema, com as seguintes informações: Nome, CPF, número do CRM, especialidade, e-mail para contato.
-* Relatório do laboratório (cliente), contendo: Nome fantasia, CNPJ, endereço SEDE, telefone.
-* Relatório de exames realizados, contendo: Tipo do exame, Médico Vinculado, Unidade, Data e Horário que foi realizado, Laboratório, Preço.
-* Relatório de exames pendentes, são exames que apenas o médico solicitou e que aguarda agendamento do paciente, para isso é necessário as seguintes informações: Tipo de exame, médico vinculado.
+* Relatório que informe quais são os médicos já cadastrados no sistema, com as seguintes informações: Nome, número do CRM, especialidade, e-mail para contato.
+* Relatório do laboratório, contendo: Nome fantasia, CNPJ, endereço (com todas informações) e telefone.
+* Relatório de exames realizados, contendo: tipo do exame, médico Vinculado, unidade, data que foi realizado, laboratório, preço.
+* Relatório de exames pendentes, são exames que apenas o médico solicitou e que aguarda agendamento do paciente, para isso é necessário as seguintes informações: Tipo de exame, médico vinculado, data do exame.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
