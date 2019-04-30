@@ -32,7 +32,6 @@ Este documento contém a especificação do projeto do banco de dados <b>E-xames
 * Relatório que informe quais são os médicos já cadastrados no sistema, com as seguintes informações: Nome, CPF, número do CRM, especialidade, e-mail para contato.
 * Relatório do laboratório (cliente), contendo: Nome fantasia, CNPJ, endereço SEDE, telefone.
 * Relatório de exames realizados, contendo: Tipo do exame, Médico Vinculado, Unidade, Data e Horário que foi realizado, Laboratório, Preço.
-* Relatório de exames pré-agendados, contendo: Tipo de exame, Médico Vinculado (se houver), unidade, data e horário agendado, preço do exame.
 * Relatório de exames pendentes, são exames que apenas o médico solicitou e que aguarda agendamento do paciente, para isso é necessário as seguintes informações: Tipo de exame, médico vinculado.
  
  
