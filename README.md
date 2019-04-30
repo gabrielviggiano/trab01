@@ -52,7 +52,7 @@ Este documento contém a especificação do projeto do banco de dados <b>E-xames
     
 #### 5.1 Validação do Modelo Conceitual
     [TrashMe]: [Brian Icaro Diaz Marques, Ramon Kazushi Cossual Sakurada, Pedro Cruz Nunes Silva, Marcelo Oliveira]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Lixeira Inteligente]: [Jackson William, Lavinia Corteletti, Thiago Moreira, Vinicius Freitas]
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
