@@ -11,7 +11,7 @@ Renato Bellumat: renato.bellumat@hotmail.com<br>
 Ícaro Gandine: icarog28@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <b>E-xames Online<b> e motivação da escolha realizada. <br>
+Este documento contém a especificação do projeto do banco de dados <b>E-xames Online</b> e motivação da escolha realizada. <br>
 
 > A empresa "E-Xames" visa minimizar o tempo gasto na hora de se consultar, fazer exames,receber e analisar um exame. Ficamos motivados com o desenvolvimento deste sistema não apenas pelos desafios mas também por que sabemos a importância que o tempo tem em nossas vidas e por isso escolhemos trabalhar sobre um projeto que trará um beneficio para a sociedade e não apenas para nós próprios.O Sistema "E-Xames" tem como objetivo gerenciar todas as informações geradas apartir de um exame médico. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas as Entidades Paciente, Médico e Laboratório, além de também armazenar dados sobre o histórico de consultas do paciente.
  
