@@ -22,7 +22,7 @@ Este documento contém a especificação do projeto do banco de dados <b>E-xames
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-<h1>Segue em anexo ao link o Mockup realizado para o ambiente mobile do aplicativo E-Xames.</h1><br>
+<h3>Segue em anexo ao link o Mockup realizado para o ambiente mobile do aplicativo E-Xames.</h3><br>
 
 ![Arquivo PDF do Protótipo Balsamiq feito para E-Xames Online](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/Mobile_Exames.pdf?raw=true "E-Xames Online")
 
