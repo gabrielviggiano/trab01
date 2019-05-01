@@ -55,11 +55,13 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     [Lixeira Inteligente]: [Jackson William, Lavinia Corteletti, Thiago Moreira, Vinicius Freitas]
 
 #### 5.2 DECISÕES DE PROJETO
-    <b>Realizado: </b> Optamos por incluir esse campo para transformar o que antes eram duas tabelas, em uma só, visto que o que diferenciavam-as era apenas se o exame era realizado ou pendente.<br>
-	<b>Id_Paciente: </b> Decidimos por incluir uma id para o paciente, visto que, apesar do cpf poder ser um identificador, seria complicado e grande para ser usado.<br>
-	<b>Preço: </b> Antes, esse campo ficava incluido nas tabelas de exames pendentes e concluídos, porem vimos que seria mais prático colocar ela nas identificações de exames. Fator esse que também foi decisivo para a junção das tabelas exames concluídos e exames pendentes<br>
+
+<b>Realizado: </b> Optamos por incluir esse campo para transformar o que antes eram duas tabelas, em uma só, visto que o que diferenciavam-as era apenas se o exame era realizado ou pendente.<br>
+<b>Id_Paciente: </b> Decidimos por incluir uma id para o paciente, visto que, apesar do cpf poder ser um identificador, seria complicado e grande para ser usado.<br>
+<b>Preço: </b> Antes, esse campo ficava incluido nas tabelas de exames pendentes e concluídos, porem vimos que seria mais prático colocar ela nas identificações de exames. Fator esse que também foi decisivo para a junção das tabelas exames concluídos e exames pendentes<br>
 
 >## Marco de Entrega 02 em: (30/04/2019)<br>
+
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
