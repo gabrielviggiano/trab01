@@ -22,9 +22,9 @@ Este documento contém a especificação do projeto do banco de dados <b>E-xames
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-<h3>Segue em anexo ao link o Mockup realizado para o ambiente mobile do aplicativo E-Xames.</h3><br>
+Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
-![Arquivo PDF do Protótipo Balsamiq feito para E-Xames Online](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/Mobile_Exames.pdf?raw=true "E-Xames Online")
+[Arquivo PDF do Protótipo Balsamiq feito para E-Xames Online](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/Mobile_Exames.pdf?raw=true "E-Xames Online")
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
@@ -37,9 +37,9 @@ Este documento contém a especificação do projeto do banco de dados <b>E-xames
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
     
-![Tabela de dados da empresa E-Xames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/tabela_de_dados.xlsx?raw=true "Tabela - Empresa E-Xames")
+[Tabela de dados da empresa E-Xames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/tabela_de_dados.xlsx?raw=true "Tabela - Empresa E-Xames")
 
-![Tabela de dados normalizada da empresa E-Xames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/tabela_de_dados_normalizada.xlsx?raw=true	"Tabela - Empresa E-Xames")
+[Tabela de dados normalizada da empresa E-Xames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/tabela_de_dados_normalizada.xlsx?raw=true	"Tabela - Empresa E-Xames")
 
     
 >## Marco de Entrega 01 em:<br>
