@@ -30,9 +30,10 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     
 > A Empresa E-Xames precisa inicialmente dos seguintes relatórios:
 * Relatório que informe quais são os médicos já cadastrados no sistema, com as seguintes informações: Nome, número do CRM, especialidade, e-mail para contato.
-* Relatório do laboratório, contendo: Nome fantasia, CNPJ, endereço (com todas informações) e telefone.
+* Relatório do laboratório, contendo: Nome fantasia, CNPJ, endereço (com todas informações) e telefone bem como quantidade de exames realizados.
 * Relatório de exames realizados, contendo: tipo do exame, médico Vinculado, unidade, data que foi realizado, laboratório, preço.
 * Relatório de exames pendentes, são exames que apenas o médico solicitou e que aguarda agendamento do paciente, para isso é necessário as seguintes informações: Tipo de exame, médico vinculado, data do exame.
+* Relatório de validações de médicos: Anexos que foram gerados após os exames, contendo todas as informações dos mesmos, além de anotações dos médicos.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
