@@ -118,8 +118,7 @@ TABELA EXAME_PACIENTE: Essa tabela guarda as informações referentes a realiza�
         (não serão aceitos modelos que não estejam em conformidade)
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/modelo_fisico.sql ?raw=true "Modelo Conceitual")  
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
