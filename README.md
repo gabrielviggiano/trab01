@@ -124,21 +124,21 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
 
 * [Insert aplicado na base de dados](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/insert_aplicado.sql?raw=true	"Insert")
-* [Backup do Banco de dados Exames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/backup_exames?raw=true	"Backup")
+* [Backup do Banco de dados Exames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/backup_exames?raw=true	"Backup1 - Inclusão")
 
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
 
 * [Criação de tabelas e inserção de dados](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/create_insert.sql?raw=true	"Insert e Create")
-* [Backup do Banco de dados Exames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/backupa_exames2?raw=true	"Backup2")
+* [Backup do Banco de dados Exames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/backupa_exames2?raw=true	"Backup2 - Inclusão e Criação")
 
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script
-        (Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+
+* [Exclusão, criação e inclusão de dados das tabelas](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/drop_create_insert.sql?raw=true	"Drop, Insert e Create")
+* [Backup do Banco de dados Exames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/backup_exames3?raw=true	"Backup3 - Exclusão")
+
+
 #### 8.4 Principais fluxos de informação e principais tabelas do sistema
         a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
         b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
