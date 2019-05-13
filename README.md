@@ -67,7 +67,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
-TABELA PACIENTE: Essa tabela contém as infomações relativas ao cadastro de pacientes.
+<b>TABELA PACIENTE:</b> Essa tabela contém as infomações relativas ao cadastro de pacientes.
 - ID_PACIENTE: Campo identificador do usuário (usado como chave primária e login).
 - CPF_PACIENTE: Campo que armazena o número de Cadastro de Pessoa Física de cada paciente.
 - NM_PACIENTE:	Campo que armazena o nome do paciente.
@@ -77,7 +77,7 @@ TABELA PACIENTE: Essa tabela contém as infomações relativas ao cadastro de pa
 
 -----------------------------------------------------------------------------------------------------------
 
-TABELA MEDICO: Essa tabela contém as informações de cadastro do médico.
+<b>TABELA MEDICO:</b> Essa tabela contém as informações de cadastro do médico.
 - CRM_MEDICO: Campo que armazena o número da carteira profissional do médico.
 - NM_MEDICO: Campo que armazena o nome do médico.
 - EMAIL_MEDICO: Campo que armazena o endereço de email do médico.
@@ -85,7 +85,7 @@ TABELA MEDICO: Essa tabela contém as informações de cadastro do médico.
 
 -----------------------------------------------------------------------------------------------------------
 
-TABELA UNIDADE: Essa tabela contém as informações descritivas das unidades do laboratório
+<b>TABELA UNIDADE:</b> Essa tabela contém as informações descritivas das unidades do laboratório
 - CD_UNIDADE: Campo que armazena o código da unidade em questão.
 - LOGRADOURO: Campo que armazena o nome da rua em que a unidade se localiza.
 - BAIRRO: Campo que armazena o nome do bairro em que a unidade se localiza.
@@ -97,14 +97,14 @@ TABELA UNIDADE: Essa tabela contém as informações descritivas das unidades do
 
 -----------------------------------------------------------------------------------------------------------
 
-TABELA EXAME: Essa tabela guarda as informações cadastrais dos exames disponíveis no laboratório.
+<b>TABELA EXAME:</b> Essa tabela guarda as informações cadastrais dos exames disponíveis no laboratório.
 - CD_EXAME: Campo identificador do exame (usado como chave primária)
 - TIPO_EXAME: Campo que armazena o tipo do exame.
 - PRECO: Campo que armazena o valor do exame.
 
 -----------------------------------------------------------------------------------------------------------
 
-TABELA EXAME_PACIENTE: Essa tabela guarda as informações referentes a realização de um exame pelo paciente.
+<b>TABELA EXAME_PACIENTE:</b> Essa tabela guarda as informações referentes a realização de um exame pelo paciente.
 - CD_EXAME_PACIENTE: Campo que armazena o código identificador do exame realizado.
 - CPF_PACIENTE: Campo que armazena o número de Cadastro de Pessoa Física do paciente examinado.
 - CD_EXAME: Campo identificador do exame feito.
