@@ -8,7 +8,7 @@ Integrantes do grupo<br>
 Gabriel Viggiano Fonseca: gviggianofonseca@gmail.com<br>
 Morgana Vettorazzi: morgana.vettorazzi@hotmail.com<br>
 Renato Bellumat: renato.bellumat@hotmail.com<br>
-Ícaro Gandine: icarog28@gmail.com<br>
+Ícaro Gandine: icarog28@gmail.com icaro<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <b>E-xames Online</b> e motivação da escolha realizada. <br>
