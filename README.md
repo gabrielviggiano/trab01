@@ -113,9 +113,8 @@ TABELA EXAME_PACIENTE: Essa tabela guarda as informações referentes a realiza�
 - REALIZADO: Campo booleano que armazena a verificação se o exame foi realizado ou não.
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/modelos/Lógico_3.png?raw=true "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
 [Modelo Físico](https://github.com/gabrielviggiano/trab01-1/blob/master/modelo_fisico.sql?raw=true	"Modelo Físico")
