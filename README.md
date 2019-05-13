@@ -117,7 +117,7 @@ TABELA EXAME_PACIENTE: Essa tabela guarda as informações referentes a realiza�
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/modelos/Lógico_3.png?raw=true "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
-[Modelo Físico](https://github.com/gabrielviggiano/trab01-1/blob/master/modelo_fisico.sql?raw=true	"Modelo Físico")
+* [Modelo Físico](https://github.com/gabrielviggiano/trab01-1/blob/master/modelos/modelo_fisico.sql?raw=true	"Modelo Físico")
  
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
