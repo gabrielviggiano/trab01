@@ -126,10 +126,9 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 * [Insert aplicado na base de dados](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/insert_aplicado.sql?raw=true	"Insert")
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
 
 * [Criação de tabelas e inserção de dados](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/create_insert.sql?raw=true	"Insert e Create")
+* [Backup do Banco de dados Exames](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/backup_exames?raw=true	"Backup")
 
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
