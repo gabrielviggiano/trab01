@@ -32,7 +32,7 @@ Cidade VARCHAR(50),
 CEP BIGINT,
 Numero INT NOT NULL,
 Tel BIGINT,
-
+CNPJ VARCHAR(100),
 PRIMARY KEY (CD_Unidade)
 );
 
