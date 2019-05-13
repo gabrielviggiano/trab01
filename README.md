@@ -123,7 +123,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
 
-* [Insert Aplicado na base de dados](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/insert_aplicado.sql?raw=true	"Insert")
+* [Insert aplicado na base de dados](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/insert_aplicado.sql?raw=true	"Insert")
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
         b) Criar um novo banco de dados para testar a restauracao 
