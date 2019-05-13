@@ -118,7 +118,7 @@ TABELA EXAME_PACIENTE: Essa tabela guarda as informações referentes a realiza�
         (não serão aceitos modelos que não estejam em conformidade)
 
 ### 7	MODELO FÍSICO<br>
-[Tabela de dados normalizada da empresa E-Xames](https://github.com/gabrielviggiano/trab01-1/blob/master/modelo_fisico.sql?raw=true	"Modelo Físico")
+[Modelo Físico](https://github.com/gabrielviggiano/trab01-1/blob/master/modelo_fisico.sql?raw=true	"Modelo Físico")
  
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
