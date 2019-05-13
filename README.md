@@ -122,8 +122,8 @@ TABELA EXAME_PACIENTE: Essa tabela guarda as informações referentes a realiza�
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
-        b) formato .SQL
+
+* [Insert Aplicado na base de dados](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/insert_aplicado.sql?raw=true	"Modelo Físico")
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
