@@ -29,7 +29,7 @@ VALUES ('11467 ES',	'Fernando Castro',	'fernandocastro@gmail.com',	'Geral'),
 
 INSERT INTO Exame (CD_Exame, Tipo_Exame, Preco)
 VALUES (1,	'R.M',	300.00),
-(2,	 'Urina',	200,00),
+(2,	 'Urina',	200.00),
 (3,	 'Gravidez',	100.00),
 (4,	 'Raio-X',	210.00),
 (5,	 'HIV',	90.00),
@@ -51,7 +51,7 @@ VALUES (1,	'Rua José Pedro',	'JARDIM CAMBURI',	'apt 404',	'VITORIA',	    290903
 (9,	 'Rua Dom Juan',	    'GOIABEIRAS',	    'apt 704',	    'VITORIA',	    10293233,	113,    3782-4444,  '35.315.333/0001-94'),
 (10, 'Rua Marieta',	        'JARDIM CAMBURI',	'apt 801',	    'VITORIA',	    27323221,	116,    3029-9872,	'72.834.710/0001-28');
 
-INSERT INTO Exame_Paciente (CD_Exame_Paciente, CPF_Paciente, CD_Exame, CRM_Medico, DT_Exame, Realizado)
+INSERT INTO Exame_Paciente (CD_Exame_Paciente, ID_Paciente, CD_Exame, CRM_Medico, DT_Exame, Realizado)
 VALUES  (1,	15325835673,	8,	'17231 ES',	'2019/03/22',	'S'),
 (2,	 15325835675,	7,	'11467 ES',	'2019/03/22',	'S'),
 (3,	 15325835689,	3,	'12341 ES',	'2019/03/22',	'S'),
