@@ -149,11 +149,12 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-	![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "Select Paciente")
-	SELECT * FROM Medico
-	SELECT * FROM Exame
-	SELECT * FROM Unidade
-	SELECT * FROM Exame_Paciente
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "SELECT * FROM Paciente")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20medico.jpg?raw=true "SELECT * FROM Medico")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20exame.jpg?raw=true "SELECT * FROM Exame")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20unidade.jpg?raw=true "SELECT * FROM Unidade")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "SELECT * FROM Exame_Paciente")	
+	
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
