@@ -149,7 +149,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-	![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "SELECT * FROM Paciente")
+	![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "Select Paciente")
 	SELECT * FROM Medico
 	SELECT * FROM Exame
 	SELECT * FROM Unidade
