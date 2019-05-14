@@ -150,15 +150,15 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 SELECT * FROM Paciente: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "SELECT * FROM Paciente")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "SELECT * FROM Paciente") <br>
 SELECT * FROM Medico: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20medico.jpg?raw=true "SELECT * FROM Medico")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20medico.jpg?raw=true "SELECT * FROM Medico") <br>
 SELECT * FROM Exame: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20exame.jpg?raw=true "SELECT * FROM Exame")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20exame.jpg?raw=true "SELECT * FROM Exame") <br>
 SELECT * FROM Unidade: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20unidade.jpg?raw=true "SELECT * FROM Unidade")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20unidade.jpg?raw=true "SELECT * FROM Unidade") <br>
 SELECT * FROM Exame_Paciente: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "SELECT * FROM Exame_Paciente")	
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "SELECT * FROM Exame_Paciente") <br>
 	
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
