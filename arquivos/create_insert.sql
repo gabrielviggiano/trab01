@@ -90,16 +90,16 @@ PRIMARY KEY (CD_Unidade)
 
 );
 INSERT INTO Unidade (CD_Unidade, Logradouro, Bairro, Complemento, Cidade, CEP, Numero, Tel, CNPJ)
-VALUES (1,	'Rua José Pedro',	'JARDIM CAMBURI',	'apt 404',	'VITORIA',	    29090319,	123,	3315-2323,	'52.866.580/0001-06'),
-(2,	 'Rua Joao Louci',	    'PRAIA DO CANTO',	'apt 320',	    'VITORIA',	    29090239,	133,	3313-9823,	'24.898.454/0001-90'),
-(3,	 'Rua Jose Celso',	    'ITAPARICA',	    'apt 401',	    'VILA VELHA',	29010232,	169,    3342-0232,	'24.572.721/0001-34'),
-(4,	 'Rua Mariane',	        'JARDIM CAMBURI',	'apt 102',	    'VITORIA',	    29012982,	190,    3313-3233,	'93.809.037/0001-46'),
-(5,	 'Rua Rio Branco',	    'JACARAÍPE',	    'apt 301',	    'SERRA',	        29090410,	200,    3387-3233,	'52.471.976/0001-46'),
-(6,	 'Rua Zima de Souza',	'JARDIM LIMOEIRO',	'apt 1400', 	'SERRA',	        29090123,	210,    3312-0987,	'89.764.520/0001-84'),
-(7,	 'Rua Chapot',	        'JARDIM CAMBURI',	'apt 302',      'VITORIA',	    27323123,	330,    3312-8237,	'42.088.634/0001-98'),
-(8,	 'Rua Santana',	        'JARDIM DA PENHA',	'apt 1001',	    'VITORIA',	    20323111,	442,    3332-1233,	'88.695.484/0001-81'),
-(9,	 'Rua Dom Juan',	    'GOIABEIRAS',	    'apt 704',	    'VITORIA',	    10293233,	113,    3782-4444,  '35.315.333/0001-94'),
-(10, 'Rua Marieta',	        'JARDIM CAMBURI',	'apt 801',	    'VITORIA',	    27323221,	116,    3029-9872,	'72.834.710/0001-28');
+VALUES (1,	'Rua José Pedro',	'JARDIM CAMBURI',	'apt 404',	'VITORIA',	    29090319,	123,	33152323,	'52.866.580/0001-06'),
+(2,	 'Rua Joao Louci',	    'PRAIA DO CANTO',	'apt 320',	    'VITORIA',	    29090239,	133,	33139823,	'24.898.454/0001-90'),
+(3,	 'Rua Jose Celso',	    'ITAPARICA',	    'apt 401',	    'VILA VELHA',	29010232,	169,    33420232,	'24.572.721/0001-34'),
+(4,	 'Rua Mariane',	        'JARDIM CAMBURI',	'apt 102',	    'VITORIA',	    29012982,	190,    33133233,	'93.809.037/0001-46'),
+(5,	 'Rua Rio Branco',	    'JACARAÍPE',	    'apt 301',	    'SERRA',	        29090410,	200,    33873233,	'52.471.976/0001-46'),
+(6,	 'Rua Zima de Souza',	'JARDIM LIMOEIRO',	'apt 1400', 	'SERRA',	        29090123,	210,    33120987,	'89.764.520/0001-84'),
+(7,	 'Rua Chapot',	        'JARDIM CAMBURI',	'apt 302',      'VITORIA',	    27323123,	330,    33128237,	'42.088.634/0001-98'),
+(8,	 'Rua Santana',	        'JARDIM DA PENHA',	'apt 1001',	    'VITORIA',	    20323111,	442,    33321233,	'88.695.484/0001-81'),
+(9,	 'Rua Dom Juan',	    'GOIABEIRAS',	    'apt 704',	    'VITORIA',	    10293233,	113,    37824444,  '35.315.333/0001-94'),
+(10, 'Rua Marieta',	        'JARDIM CAMBURI',	'apt 801',	    'VITORIA',	    27323221,	116,    30299872,	'72.834.710/0001-28');
 
 
 -------------------------------------------------------------------------------------------------
