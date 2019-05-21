@@ -202,6 +202,12 @@ SELECT * FROM Medico <br>
 WHERE <b>NOT</b> especialidade_medico = 'Geral'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico4.png?raw=true "where_logico4") <br>
+
+SELECT * FROM Unidade <br>
+WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico5.png?raw=true "where_logico5") <br>
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
