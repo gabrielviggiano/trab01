@@ -183,26 +183,31 @@ select * from unidade where bairro='JARDIM CAMBURI' <br>
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 <b> Consultas com operadores lógicos: </b> <br>
+* 1° Consulta:
 >SELECT * FROM Exame_Paciente   <br>
 WHERE cd_exame = 3 <b>AND</b> realizado = 'S'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico1.png?raw=true "where_logico1") <br>
 
+* 2° Consulta:
 >SELECT * FROM unidade <br>
 WHERE  bairro = 'JARDIM CAMBURI' <b>AND</b> cidade = 'VITORIA' <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico2.png?raw=true "where_logico2") <br>
 
+* 3° Consulta:
 >SELECT * FROM Medico <br>
 WHERE especialidade_medico = 'Geral' <b>OR</b> especialidade_medico = 'Cardiologista'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico3.png?raw=true "where_logico3") <br>
 
+* 4° Consulta:
 >SELECT * FROM Medico <br>
 WHERE <b>NOT</b> especialidade_medico = 'Geral'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico4.png?raw=true "where_logico4") <br>
 
+* 5° Consulta:
 >SELECT * FROM Unidade <br>
 WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
