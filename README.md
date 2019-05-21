@@ -188,7 +188,13 @@ WHERE  bairro = 'JARDIM CAMBURI' <b>AND</b> cidade = 'VITORIA' <br>
 
 SELECT * FROM Medico <br>
 WHERE especialidade_medico = 'Geral' <b>OR</b> especialidade_medico = 'Cardiologista'; <br>
+
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico3.png?raw=true "where_logico3") <br>
+
+SELECT * FROM Medico <br>
+WHERE <b>NOT</b> especialidade_medico = 'Geral'; <br>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico4.png?raw=true "where_logico4") <br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
