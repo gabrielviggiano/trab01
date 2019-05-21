@@ -175,11 +175,16 @@ select * from exame where preco>200 <br>
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
     
-Consultas com operadores lógicos: <br>
+<b> Consultas com operadores lógicos: </b> <br>
 SELECT * FROM Exame_Paciente   <br>
-WHERE cd_exame = 3 <b>and</b> realizado = 'S'; <br>
+WHERE cd_exame = 3 <b>AND</b> realizado = 'S'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico1.png?raw=true "where_logico1") <br>
+
+select * from unidade <br>
+where  bairro = 'JARDIM CAMBURI' <b>AND</b> cidade = 'VITORIA' <br>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico2.png?raw=true "where_logico2") <br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
