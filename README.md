@@ -211,6 +211,7 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     SELECT * FROM medico where nm_medico like 'P%' <br> 
+    SELECT * FROM paciente where email_paciente like '%@hotmail%' <br>
     
     b) Criar uma consulta para cada tipo de função data apresentada.
 
