@@ -181,8 +181,8 @@ WHERE cd_exame = 3 <b>AND</b> realizado = 'S'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico1.png?raw=true "where_logico1") <br>
 
-select * from unidade <br>
-where  bairro = 'JARDIM CAMBURI' <b>AND</b> cidade = 'VITORIA' <br>
+SELECT * FROM unidade <br>
+WHERE  bairro = 'JARDIM CAMBURI' <b>AND</b> cidade = 'VITORIA' <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico2.png?raw=true "where_logico2") <br>
 
