@@ -164,38 +164,24 @@ SELECT * FROM Exame_Paciente: <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 select * from medico where especialidade_medico='Cardiologista' <br>
 
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where%20cardiologista.jpg?raw=true "where cardiologista") <br>
+
 select * from unidade where cidade='VITORIA' <br>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where%20vitoria.jpg?raw=true "where vitoria") <br>
 
 select * from exame where preco>200 <br>
 
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where%20preco.jpg?raw=true "where preco") <br>
 
+select * from unidade where bairro='JARDIM CAMBURI' <br>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where%20bairro.jpg?raw=true "where bairro") <br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
-    
-<b> Consultas com operadores lógicos: </b> <br>
-SELECT * FROM Exame_Paciente   <br>
-WHERE cd_exame = 3 <b>AND</b> realizado = 'S'; <br>
-
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico1.png?raw=true "where_logico1") <br>
-
-SELECT * FROM unidade <br>
-WHERE  bairro = 'JARDIM CAMBURI' <b>AND</b> cidade = 'VITORIA' <br>
-
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico2.png?raw=true "where_logico2") <br>
-
-SELECT * FROM Medico <br>
-WHERE especialidade_medico = 'Geral' <b>OR</b> especialidade_medico = 'Cardiologista'; <br>
-
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico3.png?raw=true "where_logico3") <br>
-
-SELECT * FROM Medico <br>
-WHERE <b>NOT</b> especialidade_medico = 'Geral'; <br>
-
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico4.png?raw=true "where_logico4") <br>
-
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
