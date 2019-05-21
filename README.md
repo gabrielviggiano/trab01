@@ -150,7 +150,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 SELECT * FROM Paciente: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "SELECT * FROM Paciente") <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20paciente.jpg?raw=true "SELECT * FROM Paciente") <br>
 SELECT * FROM Medico: <br>
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20medico.jpg?raw=true "SELECT * FROM Medico") <br>
 SELECT * FROM Exame: <br>
@@ -162,6 +162,14 @@ SELECT * FROM Exame_Paciente: <br>
 	
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+select * from medico where especialidade_medico='Cardiologista' <br>
+
+select * from unidade where cidade='VITORIA' <br>
+
+select * from exame where preco>200 <br>
+
+
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
