@@ -223,6 +223,7 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
 * 2° Consulta:
 > SELECT preco, (preco <b>+</b> (preco <b>*</b> 0.15)) AS preco_taxaextra FROM exame
+
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico2.png?raw=true "where_logico5") <br>
 
 
