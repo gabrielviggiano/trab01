@@ -219,12 +219,17 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 * 1° Consulta:
 > SELECT preco, (preco <b>-</b> (preco <b>*</b> 0.15)) AS preco_desconto FROM exame
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico.png?raw=true "where_logico5") <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico.png?raw=true "select_aritmetico") <br>
 
 * 2° Consulta:
 > SELECT preco, (preco <b>+</b> (preco <b>*</b> 0.15)) AS preco_taxaextra FROM exame
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico2.png?raw=true "where_logico5") <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico2.png?raw=true "select_aritmetico2") <br>
+
+* 3° Consulta:
+> SELECT preco, (preco * 30) AS preco_30exames FROM exame
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico3.png?raw=true "select_aritmetico3") <br>
 
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
