@@ -213,6 +213,19 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico5.png?raw=true "where_logico5") <br>
 
+
+<b> Consultas com operadores aritméticos: </b> <br>
+
+* 1° Consulta:
+> SELECT preco, (preco <b>-</b> (preco <b>*</b> 0.15)) AS preco_desconto FROM exame
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico.png?raw=true "where_logico5") <br>
+
+* 2° Consulta:
+> SELECT preco, (preco <b>+</b> (preco <b>*</b> 0.15)) AS preco_taxaextra FROM exame
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico2.png?raw=true "where_logico5") <br>
+
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     SELECT * FROM medico where nm_medico like 'P%' <br> 
