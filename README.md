@@ -231,7 +231,22 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico3.png?raw=true "select_aritmetico3") <br>
 
+<b> Consultas de renomear tabelas ou campos </b>
 
+* 1° Consulta
+> SELECT cd_unidade, cidade, cep, tel AS Telefone FROM unidade
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_mudarNome1.png?raw=true "select_mudarNome1") <br>
+
+* 2° Consulta
+> SELECT cpf_paciente AS cpf, nm_paciente AS nome, tel_paciente AS telefone FROM paciente
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_mudarNome2.png?raw=true "select_mudarNome2") <br>
+
+* 3° Consulta
+> SELECT crm_medico AS CRM, nm_medico AS nome, especialidade_medico AS especialidade FROM medico
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_mudarNome3.png?raw=true "select_mudarNome3") <br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     SELECT * FROM medico where nm_medico like 'P%' <br> 
