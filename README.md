@@ -303,6 +303,16 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_depois1.png?raw=true "update_depois1") <br>
 
+* 2° Consulta
+> UPDATE unidade SET tel = 33150231 WHERE cd_unidade = 3
+
+<i> Antes </i>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_antes2.png?raw=true "update_antes2") <br>
+
+<i> Depois </i>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_depois2.png?raw=true "update_depois2") <br>
 
 
 
