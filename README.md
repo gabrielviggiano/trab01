@@ -276,6 +276,16 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like5.png?raw=true "select_like5") <br>
 
+<b> Função para cada tipo DATA </b>
+
+1° Consulta
+> SELECT cd_exame, id_paciente, (age(current_date,dt_exame)) AS tempo FROM exame_paciente
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_data1.png?raw=true "select_data1") <br>
+
+> SELECT cd_exame_paciente, id_paciente, extract(day from dt_exame) AS "'Dia da Consulta'" FROM exame_paciente
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_data2.png?raw=true "select_data2") <br>
 
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
