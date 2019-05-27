@@ -301,7 +301,7 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
 <i> Depois </i>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_depois1.png?raw=true "update_depois1 <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_depois1.png?raw=true "update_depois1") <br>
 
 
 
