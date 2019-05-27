@@ -261,35 +261,48 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like2.png?raw=true "select_like2") <br>
 
-3° Consulta
+* 3° Consulta
 > SELECT * FROM exame where tipo_exame like '%Completo'
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like3.png?raw=true "select_like3") <br>
 
-4° Consulta
+* 4° Consulta
 > SELECT * FROM unidade where bairro like 'JARDIM%'
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like4.png?raw=true "select_like4") <br>
 
-5° Consulta
+* 5° Consulta
 > SELECT * FROM unidade where cidade like 'VILA%'
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like5.png?raw=true "select_like5") <br>
 
 <b> Função para cada tipo DATA </b>
 
-1° Consulta
+* 1° Consulta
 > SELECT cd_exame, id_paciente, (age(current_date,dt_exame)) AS tempo FROM exame_paciente
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_data1.png?raw=true "select_data1") <br>
 
-2° Consulta
+* 2° Consulta
 > SELECT cd_exame_paciente, id_paciente, extract(day from dt_exame) AS "'Dia da Consulta'" FROM exame_paciente
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_data2.png?raw=true "select_data2") <br>
 
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
+<b> Atualização de dados </b>
+* 1° Consulta
+> UPDATE exame SET preco = 250 WHERE cd_exame = 4
+
+<i> Antes </i>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_antes1.png?raw=true "update_antes1") <br>
+
+<i> Depois </i>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_depois1.png?raw=true "update_depois1 <br>
+
 
 
 
