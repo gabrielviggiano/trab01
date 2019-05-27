@@ -1,0 +1,15 @@
+-> Alterações com Urgência:
+
+1)
+Problema: Rever normalização das colunas BAIRRO e CIDADE.
+
+Solução: Normalização dos campos -> Criar uma tabela de BAIRRO com um código para cada bairro e uma tabela de CIDADE com um código para cada cidade.
+
+2)
+Problema: Rever ligação UNIDADE_MEDICO
+Solução: ?
+
+3)
+Problema: Discutir se divisão de pessoas é viavel. Pessoa -> Paciente // Pessoa -> Medico
+
+ 
