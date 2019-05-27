@@ -283,6 +283,7 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_data1.png?raw=true "select_data1") <br>
 
+2° Consulta
 > SELECT cd_exame_paciente, id_paciente, extract(day from dt_exame) AS "'Dia da Consulta'" FROM exame_paciente
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_data2.png?raw=true "select_data2") <br>
