@@ -248,11 +248,35 @@ WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_mudarNome3.png?raw=true "select_mudarNome3") <br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
-    a) Criar outras 5 consultas que envolvam like ou ilike
-    SELECT * FROM medico where nm_medico like 'P%' <br> 
-    SELECT * FROM paciente where email_paciente like '%@hotmail%' <br>
-    
-    b) Criar uma consulta para cada tipo de função data apresentada.
+
+<b> Consultas com operador LIKE </b>
+
+* 1° Consulta
+> SELECT * FROM medico where nm_medico like 'P%' <br> 
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like1.png?raw=true "select_like1") <br>
+
+* 2° Consulta
+> SELECT * FROM paciente where email_paciente like '%@hotmail%' <br>
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like2.png?raw=true "select_like2") <br>
+
+3° Consulta
+> SELECT * FROM exame where tipo_exame like '%Completo'
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like3.png?raw=true "select_like3") <br>
+
+4° Consulta
+> SELECT * FROM unidade where bairro like 'JARDIM%'
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like4.png?raw=true "select_like4") <br>
+
+5° Consulta
+> SELECT * FROM unidade where cidade like 'VILA%'
+
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like5.png?raw=true "select_like5") <br>
+
+
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
