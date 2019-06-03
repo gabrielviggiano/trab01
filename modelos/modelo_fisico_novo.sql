@@ -22,6 +22,13 @@ NM_Pessoa VARCHAR (100),
 PRIMARY KEY(ID_Pessoa)
 );
 
+CREATE TABLE Paciente (
+ID_Pessoa INT NOT NULL,
+CPF_Paciente BIGINT,
+Senha VARCHAR(15)
+
+);
+
 CREATE TABLE Medico (
 CRM_Medico VARCHAR(15), /* Chave primária */
 Senha VARCHAR(25),
