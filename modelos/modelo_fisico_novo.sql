@@ -12,7 +12,7 @@ PRIMARY KEY(CD_Cidade)
 
 CREATE TABLE Especialidade (
 CD_Especialidade INT NOT NULL, /* Chave primária */
-NM_Especialidade VARCHAR(20),
+NM_Especialidade VARCHAR(30),
 PRIMARY KEY(CD_Especialidade) 
 );
 
