@@ -44,5 +44,15 @@ CD_Tipo INT NOT NULL
 
 );
 
+CREATE TABLE Exame_Paciente (
+CD_Exame_Paciente INT NOT NULL, 
+ID_Paciente INT NOT NULL,
+CD_Exame INT NOT NULL,
+CRM_Medico VARCHAR(15),
+DT_Exame DATE,
+Realizado CHAR
+
+);
+
 
 
