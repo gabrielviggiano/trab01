@@ -54,5 +54,15 @@ Realizado CHAR
 
 );
 
+CREATE TABLE Unidade (
+ID_Pessoa INT NOT NULL, 
+Logradouro VARCHAR(100),
+CD_Bairro INT NOT NULL,
+Complemento VARCHAR(100),
+CD_Cidade INT NOT NULL,
+CEP BIGINT,
+Numero INT NOT NULL,
+CNPJ VARCHAR
 
+);
 
