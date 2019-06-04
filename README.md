@@ -1,30 +1,4 @@
-# TRABALHO 01:  E-Xames Online
-Trabalho desenvolvido durante a disciplina de BD1
 
-# Sumário
-
-### 1. COMPONENTES<br>
-Integrantes do grupo<br>
-Gabriel Viggiano Fonseca: gviggianofonseca@gmail.com<br>
-Morgana Vettorazzi: morgana.vettorazzi@hotmail.com<br>
-Renato Bellumat: renato.bellumat@hotmail.com<br>
-Ícaro Gandine: icarog28@gmail.com<br>
-
-### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <b>E-xames Online</b> e motivação da escolha realizada. <br>
-
-A empresa "E-Xames" visa minimizar o tempo gasto na hora de se consultar, fazer exames,receber e analisar um exame. Ficamos motivados com o desenvolvimento deste sistema não apenas pelos desafios mas também por que sabemos a importância que o tempo tem em nossas vidas e por isso escolhemos trabalhar sobre um projeto que trará um beneficio para a sociedade e não apenas para nós próprios.O Sistema "E-Xames" tem como objetivo gerenciar todas as informações geradas apartir de um exame médico. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas as Entidades Paciente, Médico e Laboratório, além de também armazenar dados sobre o histórico de consultas do paciente.
- 
-
-### 3.MINI-MUNDO Novo<br>
-
-O sistema proposto para a "E-Xames" conterá as informacões aqui detalhadas. Dos Pacientes serão armazenados um codigo de identificação, nome, cpf(login), email, telefone, senha. Das unidades dos laboratórios serão armazenados o nome fantasia, endereço (desconstruído em: logradouro, bairro, complemento, cidade, cep e número), CNPJ e telefone. Dos Médicos serão armazenados nome, cpf, crm, especialidade e email. Após o paciente se consultar com o médico, e realizado o exame com o laboratório, o resultado ficará disponível tanto para o paciente, quanto para o médico. Feito isso, o médico analisará os exames sem a necessidade de uma consulta extra com o paciente. O veredito do médico ficará disponível no arquivo anexado ao aplicativo, informando se há necessidade de uma nova consulta ou se o tratamento foi finalizado, também se há ou não uma receita para algum tipo de medicamento, caso houver esta necessidade o médico prescreverá a receita deixando a mesma a cargo de algum funcionário do hospital ou do laboratório, logo o paciente apenas deverá comprovar o vínculo com este médico e poderá retirar a receita na hora que lhe agradar mais. O aplicativo fornecerá também o agendamento de novos exames sem medico vinculado. Ficará a disposição, informações como: endereços das unidades, controle de exames (histórico, exame a ser realizado, arquivos anexados e preescrição do médico). 
-
-### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-
-Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
-
-[Arquivo PDF do Protótipo Balsamiq feito para E-Xames Online](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/Mobile_Exames.pdf?raw=true "E-Xames Online")
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
