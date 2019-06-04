@@ -67,50 +67,71 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
-<b>TABELA PACIENTE:</b> Essa tabela contém as infomações relativas ao cadastro de pacientes.
-- ID_PACIENTE: Campo identificador do usuário (usado como chave primária e login).
-- CPF_PACIENTE: Campo que armazena o número de Cadastro de Pessoa Física de cada paciente.
-- NM_PACIENTE:	Campo que armazena o nome do paciente.
-- EMAIL_PACIENTE: Campo que armazena o endereço de email de cada paciente.
-- TEL_PACIENTE: Campo que armazena o telefone de contato do paciente.
-- SENHA_PACIENTE: Campo que armazena a senha de acesso ao aplicativo do paciente.
+<b>TABELA BAIRRO:</b> Essa tabela guarda o nome e código de cada bairro, para evitar repetições no banco na tabela UNIDADE nós usamos o código do bairro. 
+
+- CD_Bairro: Campo que armazena o código do bairro.
+- NM_Bairro: Campo que armazena o nome do bairro. 
 
 -----------------------------------------------------------------------------------------------------------
 
-<b>TABELA MEDICO:</b> Essa tabela contém as informações de cadastro do médico.
-- CRM_MEDICO: Campo que armazena o número da carteira profissional do médico.
-- NM_MEDICO: Campo que armazena o nome do médico.
-- EMAIL_MEDICO: Campo que armazena o endereço de email do médico.
-- ESPECIALIDADE_MEDICO: Campo que armazena a especialidade do médico.
+<b>TABELA CIDADE:</b> Essa tabela guarda o nome e código de cada cidade, assim como a tabela BAIRRO serve para evitar repetições.
+- CD_Cidade: Campo que armazena o código da cidade.
+- NM_Cidade: Campo que armazena o nome da cidade.
 
 -----------------------------------------------------------------------------------------------------------
 
-<b>TABELA UNIDADE:</b> Essa tabela contém as informações descritivas das unidades do laboratório
-- CD_UNIDADE: Campo que armazena o código da unidade em questão.
-- LOGRADOURO: Campo que armazena o nome da rua em que a unidade se localiza.
-- BAIRRO: Campo que armazena o nome do bairro em que a unidade se localiza.
-- COMPLEMENTO: Campo que armazena o complemento de endereço em que a unidade se localiza.
-- CIDADE: Campo que armazena o nome da cidade em que a unidade se localiza.
-- CEP: Campo que armazena o código de endereçamento postal da unidade.
-- NUMERO: Campo que armazena o número de endereço da unidade em questão.
-- TEL: Campo que armazena o número de telefone da unidade.
+<b>TABELA ESPECIALIDADE:</b> Essa tabela contém as possíveis especialidades, também codificadas para evitar repetições. 
+- CD_Especialidade: Campo que armazena o código da especialidade.
+- NM_Especialidade: Campo que armazena o nome da especialidade.
 
 -----------------------------------------------------------------------------------------------------------
 
-<b>TABELA EXAME:</b> Essa tabela guarda as informações cadastrais dos exames disponíveis no laboratório.
-- CD_EXAME: Campo identificador do exame (usado como chave primária)
-- TIPO_EXAME: Campo que armazena o tipo do exame.
-- PRECO: Campo que armazena o valor do exame.
+<b>TABELA PESSOA:</b> Essa tabela guarda as informações cadastrais de um usuário, sendo este um paciente, um médico ou uma unidade. 
+- ID_Pessoa: Campo que guarda o código do paciente, médico ou unidade.
+- NM_Pessoa: Campo que armazena o nome do paciente, médico ou unidade.
+
 
 -----------------------------------------------------------------------------------------------------------
 
-<b>TABELA EXAME_PACIENTE:</b> Essa tabela guarda as informações referentes a realização de um exame pelo paciente.
-- CD_EXAME_PACIENTE: Campo que armazena o código identificador do exame realizado.
-- CPF_PACIENTE: Campo que armazena o número de Cadastro de Pessoa Física do paciente examinado.
-- CD_EXAME: Campo identificador do exame feito.
-- CRM_MEDICO: Campo que contém o número da carteira profissional do médico examinador.
-- DT_EXAME: Campo que armazena a data de quando foi(será) o exame.
-- REALIZADO: Campo booleano que armazena a verificação se o exame foi realizado ou não.
+<b>TABELA PACIENTE:</b> Essa tabela guarda as informações de um paciente, usando o código da tabela PESSOA para registrar o nome. (Recebe ID_Pessoa e NM_Pessoa)
+- CPF_Paciente: Campo que armazena o CPF do paciente.
+- Senha: Campo que armazena a senha do paciente para acessar o aplicativo.
+
+
+-----------------------------------------------------------------------------------------------------------
+
+<b>TABELA MEDICO:</b> Essa tabela guarda as informações de um médico, usando o código da tabela PESSOA para registrar o nome, e o código da tabela ESPECIALIDADE para registrar sua especialidade. (Recebe ID_Pessoa, NM_Pessoa e CD_Especialidade)
+- CRM_Medico: Campo que armazena o CRM do médico. 
+- Senha: Campo que armazena a senha do paciente para acessar o aplicativo.
+
+-----------------------------------------------------------------------------------------------------------
+
+<b>TABELA TIPO_CONTATO:</b> Essa tabela guarda as informações para um tipo de contato, criando um código para este tipo. 
+- CD_Tipo: Campo que armazena o código para um tipo de contato 
+- NM_Tipo: Campo que armazena o tipo de contato em si (e-mail, telefone fixo, celular, etc)
+
+-----------------------------------------------------------------------------------------------------------
+
+<b>TABELA CONTATO:</b> Essa tabela guarda um contato de um paciente, médico ou unidade no aplicativo. Recebe o código da pessoa da tabela PESSOA e o tipo de contato da  tabela TIPO_CONTATO. (Recebe ID_Pessoa e CD_Tipo)
+
+- ID_Contato: Campo que armazena o código do contato
+- NM_Contato: Campo que armazena o próprio contato, exemplos: "92142-2461" , "joseferreira@hotmail.com", "3321-2417" . 
+
+-----------------------------------------------------------------------------------------------------------
+
+<b>TABELA EXAME_PACIENTE:</b> Essa tabela guarda as informações referentes a realização de um exame pelo paciente. Recebe ID_Pessoa para ter o nome do paciente, CD_Exame para ter o tipo e preço do exame e o CRM_Medico para mostrar o CRM do médico. (Recebe ID_Pessoa, CD_Exame e CRM_Medico)
+
+- CD_Exame_Paciente: Campo que armazena o código identificador do exame realizado.
+- DT_Exame: Campo que armazena a data em que o exame foi realizado.
+- Realizado: Campo que armazena se o exame já foi realizado ou não, 'S' para realizado e 'N' para não realizado.
+
+-----------------------------------------------------------------------------------------------------------
+
+<b>TABELA UNIDADE:</b> Essa tabela guarda as informações referentes a uma unidade.  
+
+
+
+
 
 ### 6	MODELO LÓGICO<br>
 
