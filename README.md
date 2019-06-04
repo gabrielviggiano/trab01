@@ -90,13 +90,11 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 - ID_Pessoa: Campo que guarda o código do paciente, médico ou unidade.
 - NM_Pessoa: Campo que armazena o nome do paciente, médico ou unidade.
 
-
 -----------------------------------------------------------------------------------------------------------
 
 <b>TABELA PACIENTE:</b> Essa tabela guarda as informações de um paciente, usando o código da tabela PESSOA para registrar o nome. (Recebe ID_Pessoa e NM_Pessoa)
 - CPF_Paciente: Campo que armazena o CPF do paciente.
 - Senha: Campo que armazena a senha do paciente para acessar o aplicativo.
-
 
 -----------------------------------------------------------------------------------------------------------
 
