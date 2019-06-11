@@ -128,12 +128,9 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 <b>TABELA UNIDADE:</b> Essa tabela guarda as informações referentes a uma unidade.  
 
 
-
-
-
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/modelos/Lógico_3.png?raw=true "Modelo Lógico")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/modelos/modelo_logico_Novo.png?raw=true "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
 * [Modelo Físico](https://github.com/gabrielviggiano/trab01-1/blob/master/modelos/modelo_fisico.sql?raw=true	"Modelo Físico")
