@@ -48,7 +48,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 ### 5.MODELO CONCEITUAL<br>
 	NOTACAO ENTIDADE RELACIONAMENTO 
         
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/modelos/modelo_conceitual.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/modelos/modelo_conceitual_Novo.png?raw=true "Modelo Conceitual")
     
     
 #### 5.1 Validação do Modelo Conceitual
