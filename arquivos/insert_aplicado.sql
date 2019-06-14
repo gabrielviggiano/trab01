@@ -121,8 +121,8 @@ VALUES (11,	30,	'17211 ES',	'1i2n3'),
 (19,	31,	'19062 ES',	'd7a6dsa'),
 (20,	33,	'15612 ES',	'0d9f8g');
 
-INSERT INTO Contato (ID_Contato, fk_pessoa_ID_Pessoa, CD_Tipo, NM_Contato)
-VALUES (1,	1,	103	'997637123'),
+INSERT INTO Contato (ID_Contato, ID_Pessoa, CD_Tipo, NM_Contato)
+VALUES (1,	1,	103,	'997637123'),
 (2,	2,	103,	'999324789'),
 (3,	3,	103,	'987120182'),
 (4,	4,	102,	'33109827'),
