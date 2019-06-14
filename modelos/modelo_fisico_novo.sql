@@ -1,75 +1,88 @@
-CREATE TABLE Bairro (
-CD_Bairro INT NOT NULL, /* Chave primária */
-NM_Bairro VARCHAR(20),
-PRIMARY KEY(CD_Bairro)
+CREATE TABLE Pessoa (
+    ID_Pessoa INTEGER,
+    NM_Pessoa VARCHAR,
+    PRIMARY KEY(ID_Pessoa)
 );
 
-CREATE TABLE Cidade (
-CD_Cidade INT NOT NULL, /* Chave primária */
-NM_Cidade VARCHAR(20),
-PRIMARY KEY(CD_Cidade)
+CREATE TABLE Tipo_Contato (
+    CD_Tipo INTEGER,
+    NM_Tipo VARCHAR,
+    PRIMARY KEY (CD_Tipo)
+);
+
+CREATE TABLE Exame (
+    CD_Exame INTEGER,
+    Tipo_Exame INTEGER,
+    Preco FLOAT,
+    PRIMARY KEY (CD_Exame)
 );
 
 CREATE TABLE Especialidade (
-CD_Especialidade INT NOT NULL, /* Chave primária */
-NM_Especialidade VARCHAR(30),
-PRIMARY KEY(CD_Especialidade) 
-);
-
-CREATE TABLE Pessoa (
-ID_Pessoa INT NOT NULL,
-NM_Pessoa VARCHAR (100),
-PRIMARY KEY(ID_Pessoa)
+    CD_Especialidade INTEGER,
+    NM_Especialidade VARCHAR,
+    PRIMARY KEY (CD_Especialidade)
 );
 
 CREATE TABLE Paciente (
-ID_Pessoa INT NOT NULL,
-CPF_Paciente BIGINT,
-Senha VARCHAR(15)
-
+    fk_Pessoa_ID_Pessoa INTEGER PRIMARY KEY,
+    CPF_Paciente BIGINT,
+    Senha VARCHAR
 );
 
 CREATE TABLE Medico (
-CRM_Medico VARCHAR(15), /* Chave primária */
-Senha VARCHAR(25),
-ID_Pessoa INT NOT NULL,
-CD_Especialidade INT NOT NULL
+    fk_Pessoa_ID_Pessoa INTEGER,
+    CD_Especialidade INTEGER,
+    CRM_Medico VARCHAR,
+    Senha VARCHAR,
+    PRIMARY KEY (CRM_Medico),
+    FOREIGN KEY (CD_Especialidade) REFERENCES Especialidade(CD_Especialidade)
+);
 
-); 
+CREATE TABLE Bairro (
+    CD_Bairro INTEGER,
+    NM_Bairro VARCHAR,
+    PRIMARY KEY(CD_Bairro)
+);
 
-CREATE TABLE Tipo_Contato (
-CD_Tipo INT NOT NULL, /* Chave primária */
-NM_Tipo VARCHAR(50)
-
+CREATE TABLE Cidade (
+    CD_Cidade INTEGER,
+    NM_Cidade VARCHAR,
+    PRIMARY KEY(CD_Cidade)
 );
 
 CREATE TABLE Contato (
-ID_Contato INT NOT NULL, 
-ID_Pessoa INT NOT NULL,
-NM_Contato VARCHAR(50),
-CD_Tipo INT NOT NULL
-
-);
-
-CREATE TABLE Exame_Paciente (
-CD_Exame_Paciente INT NOT NULL, 
-ID_Pessoa INT NOT NULL,
-CD_Exame INT NOT NULL,
-CRM_Medico VARCHAR(15),
-DT_Exame DATE,
-Realizado CHAR
-
+    ID_Contato INTEGER,
+    ID_Pessoa INTEGER,
+    CD_Tipo INTEGER,
+    NM_Contato VARCHAR,
+    PRIMARY KEY (ID_Contato),
+    FOREIGN KEY (ID_Pessoa) REFERENCES Pessoa(ID_Pessoa),
+    FOREIGN KEY (CD_Tipo) REFERENCES Tipo_Contato(CD_Tipo)
 );
 
 CREATE TABLE Unidade (
-ID_Pessoa INT NOT NULL, 
-Logradouro VARCHAR(100),
-CD_Bairro INT NOT NULL,
-Complemento VARCHAR(100),
-CD_Cidade INT NOT NULL,
-CEP BIGINT,
-Numero INT NOT NULL,
-CNPJ VARCHAR(20)
+    fk_Pessoa_ID_Pessoa INTEGER PRIMARY KEY,
+    CNPJ BIGINT,
+    NM_Rua VARCHAR,
+    CD_Bairro INTEGER,
+    Complemento VARCHAR,
+    CEP BIGINT,
+    Numero INTEGER,
+    CD_Cidade INTEGER,                                        
+    FOREIGN KEY (CD_Bairro) REFERENCES Bairro(CD_Bairro),
+    FOREIGN KEY (CD_Cidade) REFERENCES Cidade(CD_Cidade)
+);
 
+CREATE TABLE Exame_Paciente (
+    CD_Exame_Paciente INTEGER,
+    ID_Pessoa INTEGER,
+    CD_Exame INTEGER,
+    CRM_Medico VARCHAR,
+    DT_Exame DATE,
+    Realizado CHAR,
+    PRIMARY KEY (CD_Exame_Paciente,)
+    FOREIGN KEY (ID_Pessoa) REFERENCES Pessoa(ID_Pessoa),
+    FOREIGN KEY (CD_Exame) REFERENCES Exame(CD_Exame),
+    FOREIGN KEY (CRM_Medico) REFERENCES Medico(CRM_Medico)
 );
 
