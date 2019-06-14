@@ -10,9 +10,10 @@ CREATE TABLE Tipo_Contato (
     PRIMARY KEY (CD_Tipo)
 );
 
+
 CREATE TABLE Exame (
     CD_Exame INTEGER,
-    Tipo_Exame INTEGER,
+    Tipo_Exame VARCHAR,
     Preco FLOAT,
     PRIMARY KEY (CD_Exame)
 );
@@ -85,4 +86,3 @@ CREATE TABLE Exame_Paciente (
     FOREIGN KEY (CD_Exame) REFERENCES Exame(CD_Exame),
     FOREIGN KEY (CRM_Medico) REFERENCES Medico(CRM_Medico)
 );
-
