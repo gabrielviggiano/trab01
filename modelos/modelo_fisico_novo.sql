@@ -81,7 +81,7 @@ CREATE TABLE Exame_Paciente (
     CRM_Medico VARCHAR,
     DT_Exame DATE,
     Realizado CHAR,
-    PRIMARY KEY (CD_Exame_Paciente,)
+    PRIMARY KEY (CD_Exame_Paciente),
     FOREIGN KEY (ID_Pessoa) REFERENCES Pessoa(ID_Pessoa),
     FOREIGN KEY (CD_Exame) REFERENCES Exame(CD_Exame),
     FOREIGN KEY (CRM_Medico) REFERENCES Medico(CRM_Medico)
