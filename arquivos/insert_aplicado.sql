@@ -77,3 +77,46 @@ VALUES (21,	52866580000106,	'Rua José Pedro',	10,	'apt 404',	29090319,	123,	60)
 (28,	52866580000806,	'Rua Santana',	        18,	'apt 1001',	20323111,	442,	61),
 (29,	52866580000906,	'Rua Dom Juan',	        11,	'apt 704',	10293233,	113,	60),
 (30,	52866580001006,	'Rua Marieta',	        13,	'apt 801',	27323221,	116,	60);
+
+INSERT INTO Tipo_Contato (CD_Tipo, NM_Tipo)
+VALUES (101,	'Email'),
+(102,	'Telefone Fixo'),
+(103,	'Telefone Celular'),
+(104,	'Fax'),
+(105,	'Telefone Empresa');
+
+INSERT INTO Exame (CD_Exame, Tipo_Exame, Preco)
+VALUES (1,	'R.M',	300.00),
+(2,	'Urina',	200.00),
+(3,	'Gravidez',	100.00),
+(4,	'Raio-X',	210.00),
+(5,	'HIV',	90.00),
+(6,	'Glicose',	700.00),
+(7,	'DNA', 130.00),
+(8,	'Sanguíneo Completo',	200.00),
+(9,	'Meningite',	200.00),
+(10,	'Sífilis',	300.00);
+
+INSERT INTO Especialidade (CD_Especialidade, NM_Especialidade)
+VALUES (30,	'Geral'),
+(31,	'Cardiologista'),
+(32,	'Ortopedista'),
+(33,	'Dentista'),
+(34,	'Neurologista'),
+(35,	'Ginecologista'),
+(36,	'Obstetra'),
+(37,	'Anestesista'),
+(38,	'Pediatra'),
+(39,	'Dermatologista');
+
+INSERT INTO Medico (fk_pessoa_ID_Pessoa, CD_Especialidade, CRM_Medico, Senha)
+VALUES (11,	30,	'17211 ES',	'1i2n3'),
+(12,	38,	'11467 ES',	'i1jk23'),
+(13,	32,	'12342 ES',	'i31bni3'),
+(14,	36,	'11234 ES',	'31iu23'),
+(15,	31,	'11532 ES',	'567pkas'),
+(16,	30,	'17231 ES',	'a9s8da'),
+(17,	34,	'19203 ES',	'd9a87ds'),
+(18,	30,	'12341 ES',	'f8a09s'),
+(19,	31,	'19062 ES',	'd7a6dsa'),
+(20,	33,	'15612 ES',	'0d9f8g');
