@@ -47,8 +47,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 >## Marco de Entrega 01 em:<br>
 
 ### 5.MODELO CONCEITUAL<br>
-	NOTACAO ENTIDADE RELACIONAMENTO 
-        
+ 
 ![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/modelos/modelo_conceitual_Novo.png?raw=true "Modelo Conceitual")
     
     
@@ -94,12 +93,16 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 -----------------------------------------------------------------------------------------------------------
 
 <b>TABELA PACIENTE:</b> Essa tabela guarda as informações de um paciente, usando o código da tabela PESSOA para registrar o nome. (Recebe ID_Pessoa e NM_Pessoa)
+- ID_Pessoa: Campo que armazena o ID da Pessoa, vinda da tabela Pessoa.
 - CPF_Paciente: Campo que armazena o CPF do paciente.
 - Senha: Campo que armazena a senha do paciente para acessar o aplicativo.
 
 -----------------------------------------------------------------------------------------------------------
 
 <b>TABELA MEDICO:</b> Essa tabela guarda as informações de um médico, usando o código da tabela PESSOA para registrar o nome, e o código da tabela ESPECIALIDADE para registrar sua especialidade. (Recebe ID_Pessoa, NM_Pessoa e CD_Especialidade)
+
+- ID_Pessoa: Campo que armazena o ID da Pessoa, vinda da tabela Pessoa.
+- CD_Especialidade: Campo que armazena o código da especialidade do médico.
 - CRM_Medico: Campo que armazena o CRM do médico. 
 - Senha: Campo que armazena a senha do paciente para acessar o aplicativo.
 
@@ -113,7 +116,9 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 <b>TABELA CONTATO:</b> Essa tabela guarda um contato de um paciente, médico ou unidade no aplicativo. Recebe o código da pessoa da tabela PESSOA e o tipo de contato da  tabela TIPO_CONTATO. (Recebe ID_Pessoa e CD_Tipo)
 
-- ID_Contato: Campo que armazena o código do contato
+- ID_Contato: Campo que armazena o código do contato.
+- ID_Pessoa: Campo que guarda o ID da Pessoa (originada na tabela Pessoa).
+- ID_Tipo: Campo que armazena o código do tipo de contato, originada da tabela Tipo_Contato.
 - NM_Contato: Campo que armazena o próprio contato, exemplos: "92142-2461" , "joseferreira@hotmail.com", "3321-2417" . 
 
 -----------------------------------------------------------------------------------------------------------
@@ -121,13 +126,23 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 <b>TABELA EXAME_PACIENTE:</b> Essa tabela guarda as informações referentes a realização de um exame pelo paciente. Recebe ID_Pessoa para ter o nome do paciente, CD_Exame para ter o tipo e preço do exame e o CRM_Medico para mostrar o CRM do médico. (Recebe ID_Pessoa, CD_Exame e CRM_Medico)
 
 - CD_Exame_Paciente: Campo que armazena o código identificador do exame realizado.
+- ID_Pessoa: Campo que guarda o ID da Pessoa (originada na tabela Pessoa).
+- CD_Exame: Campo que armazena o código do tipo do exame, originado da tabela Exame.
+- CRM_Medico: Campo que armazena o CRM do médico.
 - DT_Exame: Campo que armazena a data em que o exame foi realizado.
 - Realizado: Campo que armazena se o exame já foi realizado ou não, 'S' para realizado e 'N' para não realizado.
 
 -----------------------------------------------------------------------------------------------------------
 
-<b>TABELA UNIDADE:</b> Essa tabela guarda as informações referentes a uma unidade.  
-
+<b>TABELA UNIDADE:</b> Essa tabela guarda as informações referentes a uma unidade. 
+- ID_Pessoa: Campo que guarda o ID da Pessoa (originada na tabela Pessoa).
+- CNPJ: Campo que armazena o CNPJ da unidade
+- NM_Rua: Campo que armazena o nome da rua em que a unidade se localiza.
+- CD_Bairro: Campo que armazena o código do bairro, referente ao codigo na tabela Bairro.
+- Complemento: Campo que armazena o complemento do endereço da unidade.
+- CEP: Campo que armazena o CEP da unidade.
+- Numero: Campo que armazena o numero de endereço da unidade.
+- CD_Cidade: Campo que armazena o código da cidade em que a unidade se localiza, originado da tabela Cidade.
 
 ### 6	MODELO LÓGICO<br>
 
