@@ -172,22 +172,19 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 
 #### 8.4 Principais fluxos de informação e principais tabelas do sistema
-        a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
-        b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
-        c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
 
-<b> - Principais fluxos de dados em desenvolvimento: </b>
-*
-*
-*
+<b> Principais fluxos de dados em desenvolvimento: </b>
+* fluxo 1
+* fluxo 2
+* fluxo 3
 
-<b> - Tabelas que mais conterão dados no sistema: </b>
+<b> Tabelas que mais conterão dados no sistema: </b>
 * Pessoa
 * Unidade
 * Exame_Paciente
 * Contato
 
-<b> - Principais tabelas em desenvolvimento: </b>
+<b> Principais tabelas em desenvolvimento: </b>
 * Exame_Paciente
 * Unidade
 * Medico
@@ -201,23 +198,31 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 SELECT * FROM Paciente: <br>
+<print> <br>
 
 SELECT * FROM Medico: <br>
-
+<print> <br>
+	
 SELECT * FROM Exame: <br>
-
+<print> <br>
+	
 SELECT * FROM Unidade: <br>
-
+<print> <br>
+	
 SELECT * FROM Exame_Paciente: <br>
-
+<print> <br>
+	
 SELECT * FROM Pessoa: <br>
-
+<print> <br>
+	
 SELECT * FROM Cidade: <br>
-
+<print> <br>
+	
 SELECT * FROM Bairro: <br>
-
+<print> <br>
+	
 SELECT * FROM Especialidade: <br>
-
+<print> <br>
 	
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
