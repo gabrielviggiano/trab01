@@ -175,6 +175,25 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
         a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
         b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
         c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
+
+<b> - Principais fluxos de dados em desenvolvimento: </b>
+*
+*
+*
+
+<b> - Tabelas que mais conterão dados no sistema: </b>
+* Pessoa
+* Unidade
+* Exame_Paciente
+* Contato
+
+<b> - Principais tabelas em desenvolvimento: </b>
+* Exame_Paciente
+* Unidade
+* Medico
+* Paciente
+* Pessoa
+
 >## Marco de Entrega 03 em: (13/05/19) <br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
@@ -182,15 +201,23 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 SELECT * FROM Paciente: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20paciente.jpg?raw=true "SELECT * FROM Paciente") <br>
+
 SELECT * FROM Medico: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20medico.jpg?raw=true "SELECT * FROM Medico") <br>
+
 SELECT * FROM Exame: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20exame.jpg?raw=true "SELECT * FROM Exame") <br>
+
 SELECT * FROM Unidade: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20unidade.jpg?raw=true "SELECT * FROM Unidade") <br>
+
 SELECT * FROM Exame_Paciente: <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select%20examepaciente.jpg?raw=true "SELECT * FROM Exame_Paciente") <br>
+
+SELECT * FROM Pessoa: <br>
+
+SELECT * FROM Cidade: <br>
+
+SELECT * FROM Bairro: <br>
+
+SELECT * FROM Especialidade: <br>
+
 	
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
