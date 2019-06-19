@@ -261,35 +261,29 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 <b> Consultas com operadores lógicos: </b> <br>
-* 1° Consulta:
->SELECT * FROM Exame_Paciente   <br>
-WHERE cd_exame = 3 <b>AND</b> realizado = 'S'; <br>
+* 1° Consulta: <br>
+`SELECT * FROM EXAME_PACIENTE`   <br>
+`WHERE CD_EXAME_PACIENTE = 6 <b>AND</b> REALIZADO = 'N'` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico1.png?raw=true "where_logico1") <br>
 
-* 2° Consulta:
->SELECT * FROM unidade <br>
-WHERE  bairro = 'JARDIM CAMBURI' <b>AND</b> cidade = 'VITORIA' <br>
+* 2° Consulta: <br>
+`SELECT * FROM UNIDADE` <br>
+`WHERE  CD_BAIRRO = 10 <b>AND</b> NUMERO = 123` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico2.png?raw=true "where_logico2") <br>
 
-* 3° Consulta:
->SELECT * FROM Medico <br>
-WHERE especialidade_medico = 'Geral' <b>OR</b> especialidade_medico = 'Cardiologista'; <br>
+* 3° Consulta: <br>
+`SELECT * FROM CONTATO` <br>
+`WHERE ID_TIPO = 103 <b>OR</b> ID_TIPO = 102` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico3.png?raw=true "where_logico3") <br>
 
-* 4° Consulta:
->SELECT * FROM Medico <br>
-WHERE <b>NOT</b> especialidade_medico = 'Geral'; <br>
+* 4° Consulta: <br>
+`SELECT * FROM MEDICO` <br>
+`WHERE <b>NOT</b> CD_ESPECIALIDADE = 30` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico4.png?raw=true "where_logico4") <br>
 
-* 5° Consulta:
->SELECT * FROM Unidade <br>
-WHERE <b>NOT</b> cidade = 'VITORIA' <b> AND NOT </b> cidade = 'CARIACICA'; <br>
-
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where_logico5.png?raw=true "where_logico5") <br>
+* 5° Consulta: <br>
+`SELECT * FROM PESSOA` <br>
+`WHERE <b>NOT</b> ID_PESSOA > 20 <b> AND NOT </b> ID_PESSOA < 1`<br>
 
 
 <b> Consultas com operadores aritméticos: </b> <br>
