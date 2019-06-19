@@ -1,15 +1,16 @@
--> Alterações com Urgência:
+ALTERAÇÕES:
 
-1)
-Problema: Rever normalização das colunas BAIRRO e CIDADE.
+1- Alterar tabelas
+ * Unidade: Variar menos os bairros, não deixar 1 bairro para cada unidade.
+   - Restrição: Manter o campo de id_pessoa = 21
+ * Exame_Paciente: Rever os dados dos Campos Realizado e CD_Exame, afim de resultar em bons testes no relatorio e nos prints:
 
-Solução: Normalização dos campos -> Criar uma tabela de BAIRRO com um código para cada bairro e uma tabela de CIDADE com um código para cada cidade.
+1.1 Alterar modelo físico, insert aplicado e drop+create+insert, afim de terem os novos resultados da tabela.
+ 
+2- Inserir os prints das consultas. Obs: Algumas consultas ja estão feitas, basta apenas executar e colocar o print.
 
-2)
-Problema: Rever ligação UNIDADE_MEDICO
-Solução: ?
+3- Rever o MiniMundo para adequa-lo ao modelo conceitual.
 
-3)
-Problema: Discutir se divisão de pessoas é viavel. Pessoa -> Paciente // Pessoa -> Medico
+
 
  
