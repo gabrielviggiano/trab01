@@ -198,61 +198,61 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 * 1° Consulta <br>
-`SELECT * FROM Paciente:` <br> 
+`SELECT * FROM PACIENTE` <br> 
 <print> <br>
 
 * 2° Consulta <br>
-SELECT * FROM Medico: <br>
+`SELECT * FROM MEDICO` <br>
 <print> <br>
 	
 * 3° Consulta <br>
-SELECT * FROM Exame: <br>
+`SELECT * FROM EXAME` <br>
 <print> <br>
 	
 * 4° Consulta <br>
-SELECT * FROM Unidade: <br>
+`SELECT * FROM UNIDADE` <br>
 <print> <br>
 	
 * 5° Consulta <br>
-SELECT * FROM Exame_Paciente: <br>
+`SELECT * FROM EXAME_PACIENTE` <br>
 <print> <br>
 	
 * 6° Consulta <br>
-SELECT * FROM Pessoa: <br>
+`SELECT * FROM PESSOA` <br>
 <print> <br>
 	
 * 7° Consulta <br>
-SELECT * FROM Cidade: <br>
+`SELECT * FROM CIDADE` <br>
 <print> <br>
 	
 * 8° Consulta <br>
-SELECT * FROM Bairro: <br>
+`SELECT * FROM BAIRRO` <br>
 <print> <br>
 	
 * 9° Consulta <br>
-SELECT * FROM Especialidade: <br>
+`SELECT * FROM ESPECIALIDADE` <br>
 <print> <br>
 	
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 * 1° Consulta <br>
-SELECT * FROM MEDICO WHERE CD_ESPECIALIDADE = 36 <br>
+`SELECT * FROM MEDICO WHERE CD_ESPECIALIDADE = 36` <br>
 <print><br>
 
 * 2° Consulta <br>
-SELECT * FROM UNIDADE WHERE CD_CIDADE = 60 <br>
+`SELECT * FROM UNIDADE WHERE CD_CIDADE` = 60 <br>
 <print><br>
 
 * 3° Consulta <br>
-SELECT * FROM EXAME WHERE PRECO > 200.00 <br>
+`SELECT * FROM EXAME WHERE PRECO > 200.00` <br>
 <print><br>
 
 * 4° Consulta <br>
-SELECT * FROM CONTATO WHERE ID_TIPO = 103 <br>
+`SELECT * FROM CONTATO WHERE ID_TIPO = 103` <br>
 <print><br>
 
 * 5° Consulta <br>
-SELECT * FROM EXAME_PACIENTE WHERE CD_EXAME = 1 <br>
+`SELECT * FROM EXAME_PACIENTE WHERE CD_EXAME = 1` <br>
 <print><br>
 
 
