@@ -198,7 +198,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 * 1° Consulta <br>
-SELECT * FROM Paciente: <br>
+`SELECT * FROM Paciente:` <br> 
 <print> <br>
 
 * 2° Consulta <br>
