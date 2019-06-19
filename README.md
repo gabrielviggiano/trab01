@@ -262,29 +262,29 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 <b> Consultas com operadores lógicos: </b> <br>
 * 1° Consulta: <br>
-`SELECT * FROM EXAME_PACIENTE`   <br>
-`WHERE CD_EXAME_PACIENTE = 6 <b>AND</b> REALIZADO = 'N'` <br>
+`SELECT * FROM EXAME_PACIENTE   <br>
+WHERE CD_EXAME_PACIENTE = 6 <b>AND</b> REALIZADO = 'N'` <br>
 
 
 * 2° Consulta: <br>
 `SELECT * FROM UNIDADE` <br>
 `WHERE  CD_BAIRRO = 10 <b>AND</b> NUMERO = 123` <br>
-
+<print><br>
 
 * 3° Consulta: <br>
 `SELECT * FROM CONTATO` <br>
 `WHERE ID_TIPO = 103 <b>OR</b> ID_TIPO = 102` <br>
-
+<print><br>
 
 * 4° Consulta: <br>
 `SELECT * FROM MEDICO` <br>
 `WHERE <b>NOT</b> CD_ESPECIALIDADE = 30` <br>
-
+<print><br>
 
 * 5° Consulta: <br>
 `SELECT * FROM PESSOA` <br>
 `WHERE <b>NOT</b> ID_PESSOA > 20 <b> AND NOT </b> ID_PESSOA < 1`<br>
-
+<print><br>
 
 <b> Consultas com operadores aritméticos: </b> <br>
 
