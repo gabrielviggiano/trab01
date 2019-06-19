@@ -197,52 +197,61 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+* 1° Consulta <br>
 SELECT * FROM Paciente: <br>
 <print> <br>
 
+* 2° Consulta <br>
 SELECT * FROM Medico: <br>
 <print> <br>
 	
+* 3° Consulta <br>
 SELECT * FROM Exame: <br>
 <print> <br>
 	
+* 4° Consulta <br>
 SELECT * FROM Unidade: <br>
 <print> <br>
 	
+* 5° Consulta <br>
 SELECT * FROM Exame_Paciente: <br>
 <print> <br>
 	
+* 6° Consulta <br>
 SELECT * FROM Pessoa: <br>
 <print> <br>
 	
+* 7° Consulta <br>
 SELECT * FROM Cidade: <br>
 <print> <br>
 	
+* 8° Consulta <br>
 SELECT * FROM Bairro: <br>
 <print> <br>
 	
+* 9° Consulta <br>
 SELECT * FROM Especialidade: <br>
 <print> <br>
 	
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
-* 1° Consulta
+* 1° Consulta <br>
 SELECT * FROM MEDICO WHERE CD_ESPECIALIDADE = 36 <br>
 <print><br>
 
-* 2° Consulta
+* 2° Consulta <br>
 SELECT * FROM UNIDADE WHERE CD_CIDADE = 60 <br>
 <print><br>
 
-* 3° Consulta
+* 3° Consulta <br>
 SELECT * FROM EXAME WHERE PRECO > 200.00 <br>
 <print><br>
 
-* 4° Consulta
+* 4° Consulta <br>
 SELECT * FROM CONTATO WHERE ID_TIPO = 103 <br>
 <print><br>
 
-* 5° Consulta
+* 5° Consulta <br>
 SELECT * FROM EXAME_PACIENTE WHERE CD_EXAME = 1 <br>
 <print><br>
 
