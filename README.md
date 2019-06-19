@@ -226,21 +226,26 @@ SELECT * FROM Especialidade: <br>
 	
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
-select * from medico where especialidade_medico='Cardiologista' <br>
+* 1° Consulta
+SELECT * FROM MEDICO WHERE CD_ESPECIALIDADE = 36 <br>
+<print><br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where%20cardiologista.jpg?raw=true "where cardiologista") <br>
+* 2° Consulta
+SELECT * FROM UNIDADE WHERE CD_CIDADE = 60 <br>
+<print><br>
 
-select * from unidade where cidade='VITORIA' <br>
+* 3° Consulta
+SELECT * FROM EXAME WHERE PRECO > 200.00 <br>
+<print><br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where%20vitoria.jpg?raw=true "where vitoria") <br>
+* 4° Consulta
+SELECT * FROM CONTATO WHERE ID_TIPO = 103 <br>
+<print><br>
 
-select * from exame where preco>200 <br>
+* 5° Consulta
+SELECT * FROM EXAME_PACIENTE WHERE CD_EXAME = 1 <br>
+<print><br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where%20preco.jpg?raw=true "where preco") <br>
-
-select * from unidade where bairro='JARDIM CAMBURI' <br>
-
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/where%20bairro.jpg?raw=true "where bairro") <br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
