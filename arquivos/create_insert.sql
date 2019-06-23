@@ -157,14 +157,14 @@ VALUES (60,	'VITORIA'),
 INSERT INTO Unidade (fk_pessoa_ID_Pessoa, CNPJ, NM_Rua, CD_Bairro, Complemento, CEP, Numero, CD_Cidade)
 VALUES (21,	52866580000106,	'Rua José Pedro',	10,	'apt 404',	29090319,	123,	60),
 (22,	52866580000206,	'Rua Joao Louci',	    16,	'apt 320',	29090239,	133,	61),
-(23,	52866580000306,	'Rua Jose Celso',	    15,	'apt 401',	29010232,	169,	60),
+(23,	52866580000306,	'Rua Jose Celso',	    13,	'apt 401',	29010232,	169,	60),
 (24,	52866580000406,	'Rua Mariane',	        19,	'apt 102',	29012982,	190,	60),
-(25,	52866580000506,	'Rua Rio Branco',	    12,	'apt 301',	29090410,	200,	60),
+(25,	52866580000506,	'Rua Rio Branco',	    10,	'apt 301',	29090410,	200,	60),
 (26,	52866580000606,	'Rua Zima de Souza',	17,	'apt 1400',	29090123,	210,	61),
 (27,	52866580000706,	'Rua Chapot',	        14,	'apt 302',	27323123,	330,	60),
-(28,	52866580000806,	'Rua Santana',	        18,	'apt 1001',	20323111,	442,	61),
+(28,	52866580000806,	'Rua Santana',	        10,	'apt 1001',	20323111,	442,	61),
 (29,	52866580000906,	'Rua Dom Juan',	        11,	'apt 704',	10293233,	113,	60),
-(30,	52866580001006,	'Rua Marieta',	        13,	'apt 801',	27323221,	116,	60);
+(30,	52866580001006,	'Rua Marieta',	        14,	'apt 801',	27323221,	116,	60);
 
 INSERT INTO Tipo_Contato (CD_Tipo, NM_Tipo)
 VALUES (101,	'Email'),
