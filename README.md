@@ -203,7 +203,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 * 2° Consulta <br>
 `SELECT * FROM MEDICO` <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_medico?raw=true "tabela_medico") <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_medico.png?raw=true "tabela_medico") <br>
 	
 * 3° Consulta <br>
 `SELECT * FROM EXAME` <br>
