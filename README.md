@@ -199,23 +199,23 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 * 1° Consulta <br>
 `SELECT * FROM PACIENTE` <br> 
-<print> <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_paciene.png?raw=true "tabela_paciente") <br>
 
 * 2° Consulta <br>
 `SELECT * FROM MEDICO` <br>
-<print> <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_medico?raw=true "tabela_medico") <br>
 	
 * 3° Consulta <br>
 `SELECT * FROM EXAME` <br>
-<print> <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabea_exame.png?raw=true "tabela_exame") <br>
 	
 * 4° Consulta <br>
 `SELECT * FROM UNIDADE` <br>
-<print> <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_unidade.png?raw=true "tabela_unidade") <br>
 	
 * 5° Consulta <br>
 `SELECT * FROM EXAME_PACIENTE` <br>
-<print> <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_exame_paciente.png?raw=true "tabela_exame_paciente") <br>
 	
 * 6° Consulta <br>
 `SELECT * FROM PESSOA` <br>
@@ -223,15 +223,15 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 	
 * 7° Consulta <br>
 `SELECT * FROM CIDADE` <br>
-<print> <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_cidade.png?raw=true "tabela_cidade") <br>
 	
 * 8° Consulta <br>
 `SELECT * FROM BAIRRO` <br>
-<print> <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_bairro.png?raw=true "tabela_bairro") <br>
 	
 * 9° Consulta <br>
 `SELECT * FROM ESPECIALIDADE` <br>
-<print> <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_especialidade.png?raw=true "tabela_especialidade") <br>
 	
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
