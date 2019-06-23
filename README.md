@@ -207,7 +207,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 	
 * 3° Consulta <br>
 `SELECT * FROM EXAME` <br>
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabea_exame.png?raw=true "tabela_exame") <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_exame.png?raw=true "tabela_exame") <br>
 	
 * 4° Consulta <br>
 `SELECT * FROM UNIDADE` <br>
@@ -219,7 +219,9 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 	
 * 6° Consulta <br>
 `SELECT * FROM PESSOA` <br>
-<print> <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_pessoa1.png?raw=true "tabela_pessoa1") <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_pessoa2.png?raw=true "tabela_pessoa2") <br>
+![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/tabela_pessoa3.png?raw=true "tabela_pessoa3") <br>
 	
 * 7° Consulta <br>
 `SELECT * FROM CIDADE` <br>
