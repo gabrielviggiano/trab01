@@ -265,7 +265,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 <b> Consultas com operadores lógicos: </b> <br>
 * 1° Consulta: <br>
 `SELECT * FROM EXAME_PACIENTE`   <br>
-`WHERE CD_EXAME_PACIENTE = 6 <b>AND</b> REALIZADO = 'N` <br>
+`WHERE CD_EXAME_PACIENTE = 6 <b>AND</b> REALIZADO = 'S'` <br>
 
 
 * 2° Consulta: <br>
