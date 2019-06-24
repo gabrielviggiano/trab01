@@ -243,19 +243,19 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 * 2° Consulta <br>
 `SELECT * FROM UNIDADE WHERE CD_CIDADE` = 60 <br>
-<print><br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20unidade%20cdcidade.png "select cidade")<br>
 
 * 3° Consulta <br>
 `SELECT * FROM EXAME WHERE PRECO > 200.00` <br>
-<print><br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20exame%20preco%20200.png "select preco")<br>
 
 * 4° Consulta <br>
 `SELECT * FROM CONTATO WHERE CD_TIPO = 103` <br>
-<print><br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20contato%20cdtipo.png "select tipo")<br>
 
 * 5° Consulta <br>
 `SELECT * FROM EXAME_PACIENTE WHERE CD_EXAME = 1` <br>
-<print><br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20examepaciente%20cdexame.png "select cdexame")<br>
 
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
