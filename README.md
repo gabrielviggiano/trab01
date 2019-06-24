@@ -514,12 +514,26 @@ GROUP BY ID_PESSOA, ID_TIPO, NM_CONTATO
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+	
+* Devido ao nosso banco de dados estar normalizado, não é possivel criar uma self join.
+
+* 1° View: Mostrar o codigo dos pacientes que fizeram/irão fazer exame de glicose <br>
+```
+CREATE VIEW ExameGlicose AS SELECT ID_PESSOA FROM EXAME_PACIENTE WHERE CD_EXAME = 8
+```
+* 2° View: Mostrar o codigo dos medicos que são cardiologistas
+```
+CREATE VIEW Cardiologistas AS SELECT PESSOA.NM_PESSOA, MEDICO.CD_ESPECIALIDADE FROM MEDICO
+INNER JOIN PESSOA
+ON (MEDICO.ID_PESSOA = PESSOA.ID_PESSOA)
+WHERE CD_ESPECIALIDADE = 31
+```
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
 >## Marco de Entrega 03 em: (27/05/2019)<br>
 
-#### 9.11 Relatórios e Gráficos 
-    a)análises e resultados provenientes do banco de dados
+#### 9.11 Relatórios e Gráficos
+[Relatórios e Gráficos](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/relatorios_finais.ipynb?raw=true	"Relatórios e Gráficos")
 
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
