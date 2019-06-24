@@ -561,6 +561,7 @@ https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/relatorios_fina
 
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
+* [Slides para apresentação final](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/Slides%20BD1.pptx?raw=true "Slides")
 
 ### 11 Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
