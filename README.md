@@ -367,26 +367,26 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 <b> Atualização de dados </b>
 * 1° Consulta
-> UPDATE exame SET preco = 250 WHERE cd_exame = 4
+`UPDATE EXAME SET PRECO = 250 WHERE CD_EXAME = 4`
 
 <i> Antes </i>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_antes1.png?raw=true "update_antes1") <br>
+
 
 <i> Depois </i>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_depois1.png?raw=true "update_depois1") <br>
+
 
 * 2° Consulta
-> UPDATE unidade SET tel = 33150231 WHERE cd_unidade = 3
+`UPDATE PESSOA SET NM_PESSOA = 'MELISSA BERNARDES' WHERE ID_PESSOA = 10`
 
-<i> Antes </i>
+<i> Antes </i> <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_antes2.png?raw=true "update_antes2") <br>
 
-<i> Depois </i>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/update_depois2.png?raw=true "update_depois2") <br>
+<i> Depois </i> <br>
+
+
 
 
 
