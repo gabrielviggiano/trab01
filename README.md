@@ -366,19 +366,55 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
 <b> Atualização de dados </b>
-* 1° Consulta
-`UPDATE EXAME SET PRECO = 250 WHERE CD_EXAME = 4`
+* 1° Update <br>
+`UPDATE EXAME SET PRECO = 250 WHERE CD_EXAME = 4` <br>
 
-<i> Antes </i>
-
-
-
-<i> Depois </i>
+<i> Antes </i> <br>
 
 
 
-* 2° Consulta
-`UPDATE PESSOA SET NM_PESSOA = 'MELISSA BERNARDES' WHERE ID_PESSOA = 10`
+<i> Depois </i> <br>
+
+
+
+* 2° Update <br>
+`UPDATE PESSOA SET NM_PESSOA = 'MELISSA BERNARDES' WHERE ID_PESSOA = 10`<br>
+
+<i> Antes </i> <br>
+
+
+
+<i> Depois </i> <br>
+
+* 3° Update <br>
+`UPDATE PESSOA SET NM_PESSOA = 'HENRIQUE CASTRO' WHERE ID_PESSOA = 9` <br>
+
+<i> Antes </i> <br>
+
+
+
+<i> Depois </i> <br>
+
+* 4° Update <br>
+`UPDATE PACIENTE SET SENHA = 'uajsw123' WHERE ID_PESSOA = 1` <br>
+
+<i> Antes </i> <br>
+
+
+
+<i> Depois </i> <br>
+
+* 5° Update <br>
+`UPDATE PACIENTE SET SENHA = 'senha098' WHERE ID_PESSOA = 3` <br>
+
+<i> Antes </i> <br>
+
+
+
+<i> Depois </i> <br>
+
+* 6° Update <br>
+`UPDATE MEDICO SET CRM_MEDICO = '18931 ES' WHERE ID_PESSOA = 11` <br>
 
 <i> Antes </i> <br>
 
