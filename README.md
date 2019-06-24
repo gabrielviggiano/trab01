@@ -556,7 +556,7 @@ WHERE CD_ESPECIALIDADE != 31
 >## Marco de Entrega 03 em: (27/05/2019)<br>
 
 #### 9.11 Relatórios e Gráficos
-<b> * Relatórios e Gráficos </b> <br>
+* <b> Relatórios e Gráficos </b> <br>
 https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/relatorios_finais.ipynb
 
 
