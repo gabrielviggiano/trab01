@@ -342,7 +342,6 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 `WHERE TIPO_EXAME LIKE '%Completo'` <br>
 
 
-
 * 4° Consulta <br>
 `SELECT * FROM BAIRRO'`
 `WHERE NM_BAIRRO LIKE 'JARDIM%'` <br>
@@ -521,19 +520,43 @@ GROUP BY ID_PESSOA, ID_TIPO, NM_CONTATO
 ```
 CREATE VIEW ExameGlicose AS SELECT ID_PESSOA FROM EXAME_PACIENTE WHERE CD_EXAME = 8
 ```
-* 2° View: Mostrar o codigo dos medicos que são cardiologistas
+* 2° View: Mostrar os medicos que são cardiologistas
 ```
 CREATE VIEW Cardiologistas AS SELECT PESSOA.NM_PESSOA, MEDICO.CD_ESPECIALIDADE FROM MEDICO
 INNER JOIN PESSOA
 ON (MEDICO.ID_PESSOA = PESSOA.ID_PESSOA)
 WHERE CD_ESPECIALIDADE = 31
 ```
+
+* 3° View: Mostrar as unidades que estão localizadas em Vitória
+```
+CREATE VIEW UnidadesVitoria AS SELECT PESSOA.NM_PESSOA, UNIDADE.CNPJ, UNIDADE.CEP FROM UNIDADE
+INNER JOIN PESSOA
+ON (UNIDADE.ID_PESSOA = PESSOA.ID_PESSOA)
+WHERE CD_CIDADE = 60
+```
+
+* 4° View: Mostrar as unidades que estão localizadas no bairro de Jardim Camburi
+```
+CREATE VIEW UnidadesJC AS SELECT PESSOA.NM_PESSOA, UNIDADE.CNPJ, UNIDADE.CEP FROM UNIDADE
+INNER JOIN PESSOA
+ON (UNIDADE.ID_PESSOA = PESSOA.ID_PESSOA)
+WHERE CD_BAIRRO = 10
+```
+
+* 5° View: Mostrar a quantidade de medicos que não são cardiologistas
+```
+CREATE VIEW Cardiologistas AS SELECT COUNT(PESSOA.NM_PESSOA) AS QTD FROM MEDICO
+INNER JOIN PESSOA
+ON (MEDICO.ID_PESSOA = PESSOA.ID_PESSOA)
+WHERE CD_ESPECIALIDADE != 31
+```
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
 >## Marco de Entrega 03 em: (27/05/2019)<br>
 
 #### 9.11 Relatórios e Gráficos
-<b> * Relatórios e Gráficos </b>
+<b> * Relatórios e Gráficos </b> <br>
 https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/relatorios_finais.ipynb
 
 
