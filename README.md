@@ -266,27 +266,27 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 * 1° Consulta: <br>
 `SELECT * FROM EXAME_PACIENTE`   <br>
 `WHERE CD_EXAME_PACIENTE = 6 <b>AND</b> REALIZADO = 'S'` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/image/select%20cdexamepaciente%20and%20realizado.png "select realizado") <br>
 
 * 2° Consulta: <br>
 `SELECT * FROM UNIDADE` <br>
 `WHERE  CD_BAIRRO = 10 <b>AND</b> NUMERO = 123` <br>
-<print><br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20cdbairro%20and%20numero.png "select bairro")<br>
 
 * 3° Consulta: <br>
 `SELECT * FROM CONTATO` <br>
 `WHERE CD_TIPO = 103 OR CD_TIPO = 102` <br>
-<print><br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20cdtipo%20or%20cdtipo.png "select cdtipo")<br>
 
 * 4° Consulta: <br>
 `SELECT * FROM MEDICO` <br>
 `WHERE <b>NOT</b> CD_ESPECIALIDADE = 30` <br>
-<print><br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20medico%20not%20especialidade.png "select medico")<br>
 
 * 5° Consulta: <br>
 `SELECT * FROM PESSOA` <br>
 `WHERE <b>NOT</b> ID_PESSOA > 20 <b> AND NOT </b> ID_PESSOA < 1`<br>
-<print><br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20not%20pessoa.png "select pessoa")<br>
 
 <b> Consultas com operadores aritméticos: </b> <br>
 
