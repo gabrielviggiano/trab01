@@ -266,7 +266,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 * 1° Consulta: <br>
 `SELECT * FROM EXAME_PACIENTE`   <br>
 `WHERE CD_EXAME_PACIENTE = 6 <b>AND</b> REALIZADO = 'S'` <br>
-![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/image/select%20cdexamepaciente%20and%20realizado.png "select realizado") <br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20cdexamepaciente%20and%20realizado.png "select realizado") <br>
 
 * 2° Consulta: <br>
 `SELECT * FROM UNIDADE` <br>
