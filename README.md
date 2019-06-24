@@ -290,35 +290,35 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 <b> Consultas com operadores aritméticos: </b> <br>
 
-* 1° Consulta:
+* 1° Consulta: <br>
 `SELECT PRECO, (PRECO <B>-</B> (PRECO <B>*</B> 0.15)) AS PRECO_DESCONTO FROM EXAME` <br>
 
 
 
-* 2° Consulta:
+* 2° Consulta: <br>
 `SELECT PRECO, (PRECO <B>+</B> (PRECO <B>*</B> 0.15)) AS PRECO_TAXAEXTRA FROM EXAME` <br>
 
 
 
-* 3° Consulta:
+* 3° Consulta: <br>
 `SELECT PRECO, (PRECO * 30) AS PRECO_30EXAMES FROM EXAME` <br>
 
 
 
 <b> Consultas de renomear tabelas ou campos </b>
 
-* 1° Consulta
+* 1° Consulta <br>
 `SELECT NM_CONTATO AS CELULAR FROM UNIDADE`
 `WHERE ID_TIPO = 103` <br>
 
 
 
-* 2° Consulta
+* 2° Consulta <br>
 `SELECT DT_EXAME AS DATA FROM EXAME_PACIENTE` <br>
 
 
 
-* 3° Consulta
+* 3° Consulta <br>
 `SELECT ID_PESSOA AS CODIGO, NM_PESSOA AS NOME FROM PESSOA` <br>
 
 
@@ -326,39 +326,39 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 <b> Consultas com operador LIKE </b>
 
-* 1° Consulta
+* 1° Consulta <br>
 `SELECT * FROM PESSOA`
 `WHERE NM_PESSOA LIKE 'P%'` <br> 
 
 
 
-* 2° Consulta
+* 2° Consulta <br>
 `SELECT * FROM PESSOA` 
 `where NM_PESOA LIKE 'L%` <br>
 
 
-* 3° Consulta
+* 3° Consulta <br>
 `SELECT * FROM EXAME`
 `WHERE TIPO_EXAME LIKE '%Completo'` <br>
 
 
 
-* 4° Consulta
+* 4° Consulta <br>
 `SELECT * FROM BAIRRO'`
 `WHERE NM_BAIRRO LIKE 'JARDIM%'` <br>
 
 
-* 5° Consulta
+* 5° Consulta <br>
 `SELECT * FROM CIDADE`
 `WHERE NM_CIDADE LIKE 'VILA%'` <br>
 
 <b> Função para cada tipo DATA </b>
 
-* 1° Consulta
+* 1° Consulta <br>
 `SELECT CD_EXAME, ID_PESSOA, (AGE(CURRENT_DATE,DT_EXAME)) AS TEMPO FROM EXAME_PACIENTE` <br>
 
 
-* 2° Consulta
+* 2° Consulta <br>
 `SELECT CD_EXAME_PACIENTE, ID_PESSOA, EXTRACT(DAY FROM DT_EXAME) AS "'DIA DA CONSULTA'" FROM EXAME_PACIENTE` <br>
 
 
