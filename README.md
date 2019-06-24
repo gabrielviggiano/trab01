@@ -292,17 +292,17 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 * 1° Consulta: <br>
 `SELECT PRECO, (PRECO <B>-</B> (PRECO <B>*</B> 0.15)) AS PRECO_DESCONTO FROM EXAME` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20preco%20desconto.png "select desconto") <br>
 
 
 * 2° Consulta: <br>
 `SELECT PRECO, (PRECO <B>+</B> (PRECO <B>*</B> 0.15)) AS PRECO_TAXAEXTRA FROM EXAME` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20preco%20taxa.png "select taxa") <br> 
 
 
 * 3° Consulta: <br>
 `SELECT PRECO, (PRECO * 30) AS PRECO_30EXAMES FROM EXAME` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/preco%2030%20exames.png "select 30exames")<br>
 
 
 <b> Consultas de renomear tabelas ou campos </b>
