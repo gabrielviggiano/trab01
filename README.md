@@ -533,7 +533,8 @@ WHERE CD_ESPECIALIDADE = 31
 >## Marco de Entrega 03 em: (27/05/2019)<br>
 
 #### 9.11 Relatórios e Gráficos
-[Relatórios e Gráficos](https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/relatorios_finais.ipynb?raw=true	"Relatórios e Gráficos")
+<b> * Relatórios e Gráficos </b>
+https://github.com/gabrielviggiano/trab01-1/blob/master/arquivos/relatorios_finais.ipynb
 
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
