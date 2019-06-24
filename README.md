@@ -239,7 +239,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 * 1° Consulta <br>
 `SELECT * FROM MEDICO WHERE CD_ESPECIALIDADE = 36` <br>
-<print><br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20cd%20especialidade.png "select especialidade") <br>
 
 * 2° Consulta <br>
 `SELECT * FROM UNIDADE WHERE CD_CIDADE` = 60 <br>
