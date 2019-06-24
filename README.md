@@ -429,6 +429,15 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+* 1° Consulta: <br>
+`SELECT EXAME_PACIENTE.CD_EXAME_PACIENTE, PESSOA.NM_PESSOA AS NOME, EXAME.TIPO_EXAME, EXAME_PACIENTE.CRM_MEDICO, EXAME_PACIENTE.DT_EXAME`
+`FROM EXAME_PACIENTE`
+`INNER JOIN PESSOA`
+`ON(EXAME_PACIENTE.ID_PESSOA = PESSOA.ID_PESSOA)`
+`INNER JOIN EXAME`
+`ON (EXAME_PACIENTE.CD_EXAME = EXAME.CD_EXAME)` <br>
+
+
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
