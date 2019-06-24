@@ -275,7 +275,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 * 3° Consulta: <br>
 `SELECT * FROM CONTATO` <br>
-`WHERE ID_TIPO = 103 <b>OR</b> ID_TIPO = 102` <br>
+`WHERE CD_TIPO = 103 OR CD_TIPO = 102` <br>
 <print><br>
 
 * 4° Consulta: <br>
