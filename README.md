@@ -291,76 +291,76 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 <b> Consultas com operadores aritméticos: </b> <br>
 
 * 1° Consulta:
-> SELECT preco, (preco <b>-</b> (preco <b>*</b> 0.15)) AS preco_desconto FROM exame
+`SELECT PRECO, (PRECO <B>-</B> (PRECO <B>*</B> 0.15)) AS PRECO_DESCONTO FROM EXAME` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico.png?raw=true "select_aritmetico") <br>
+
 
 * 2° Consulta:
-> SELECT preco, (preco <b>+</b> (preco <b>*</b> 0.15)) AS preco_taxaextra FROM exame
+`SELECT PRECO, (PRECO <B>+</B> (PRECO <B>*</B> 0.15)) AS PRECO_TAXAEXTRA FROM EXAME` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico2.png?raw=true "select_aritmetico2") <br>
+
 
 * 3° Consulta:
-> SELECT preco, (preco * 30) AS preco_30exames FROM exame
+`SELECT PRECO, (PRECO * 30) AS PRECO_30EXAMES FROM EXAME` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_aritmetico3.png?raw=true "select_aritmetico3") <br>
+
 
 <b> Consultas de renomear tabelas ou campos </b>
 
 * 1° Consulta
-> SELECT cd_unidade, cidade, cep, tel AS Telefone FROM unidade
+`SELECT NM_CONTATO AS CELULAR FROM UNIDADE`
+`WHERE ID_TIPO = 103` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_mudarNome1.png?raw=true "select_mudarNome1") <br>
+
 
 * 2° Consulta
-> SELECT cpf_paciente AS cpf, nm_paciente AS nome, tel_paciente AS telefone FROM paciente
+`SELECT DT_EXAME AS DATA FROM EXAME_PACIENTE` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_mudarNome2.png?raw=true "select_mudarNome2") <br>
+
 
 * 3° Consulta
-> SELECT crm_medico AS CRM, nm_medico AS nome, especialidade_medico AS especialidade FROM medico
+`SELECT ID_PESSOA AS CODIGO, NM_PESSOA AS NOME FROM PESSOA` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_mudarNome3.png?raw=true "select_mudarNome3") <br>
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
 <b> Consultas com operador LIKE </b>
 
 * 1° Consulta
-> SELECT * FROM medico where nm_medico like 'P%' <br> 
+`SELECT * FROM PESSOA`
+`WHERE NM_PESSOA LIKE 'P%'` <br> 
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like1.png?raw=true "select_like1") <br>
+
 
 * 2° Consulta
-> SELECT * FROM paciente where email_paciente like '%@hotmail%' <br>
+`SELECT * FROM PESSOA` 
+`where NM_PESOA LIKE 'L%` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like2.png?raw=true "select_like2") <br>
 
 * 3° Consulta
-> SELECT * FROM exame where tipo_exame like '%Completo'
+`SELECT * FROM EXAME`
+`WHERE TIPO_EXAME LIKE '%Completo'` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like3.png?raw=true "select_like3") <br>
+
 
 * 4° Consulta
-> SELECT * FROM unidade where bairro like 'JARDIM%'
+`SELECT * FROM BAIRRO'`
+`WHERE NM_BAIRRO LIKE 'JARDIM%'` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like4.png?raw=true "select_like4") <br>
 
 * 5° Consulta
-> SELECT * FROM unidade where cidade like 'VILA%'
-
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_like5.png?raw=true "select_like5") <br>
+`SELECT * FROM CIDADE`
+`WHERE NM_CIDADE LIKE 'VILA%'` <br>
 
 <b> Função para cada tipo DATA </b>
 
 * 1° Consulta
-> SELECT cd_exame, id_paciente, (age(current_date,dt_exame)) AS tempo FROM exame_paciente
+`SELECT CD_EXAME, ID_PESSOA, (AGE(CURRENT_DATE,DT_EXAME)) AS TEMPO FROM EXAME_PACIENTE` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_data1.png?raw=true "select_data1") <br>
 
 * 2° Consulta
-> SELECT cd_exame_paciente, id_paciente, extract(day from dt_exame) AS "'Dia da Consulta'" FROM exame_paciente
+`SELECT CD_EXAME_PACIENTE, ID_PESSOA, EXTRACT(DAY FROM DT_EXAME) AS "'DIA DA CONSULTA'" FROM EXAME_PACIENTE` <br>
 
-![Alt text](https://github.com/gabrielviggiano/trab01-1/blob/master/images/select_data2.png?raw=true "select_data2") <br>
 
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
