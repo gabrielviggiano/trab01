@@ -250,7 +250,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 <print><br>
 
 * 4° Consulta <br>
-`SELECT * FROM CONTATO WHERE ID_TIPO = 103` <br>
+`SELECT * FROM CONTATO WHERE CD_TIPO = 103` <br>
 <print><br>
 
 * 5° Consulta <br>
