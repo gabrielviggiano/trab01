@@ -342,7 +342,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 
 * 4° Consulta <br>
-`SELECT * FROM BAIRRO'`
+`SELECT * FROM BAIRRO`
 `WHERE NM_BAIRRO LIKE 'JARDIM%'` <br>
 
 
