@@ -608,7 +608,33 @@ WHERE CD_ESPECIALIDADE != 31
 ```
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
->## Marco de Entrega 03 em: (27/05/2019)<br>
+* 1° Subconsulta
+```
+SELECT NM_CONTATO FROM (SELECT * FROM CONTATO) AS CONTATO
+```
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/subquery1.png "subquery1")<br>
+
+* 2° Subconsulta
+```
+SELECT NM_PESSOA, CRM_MEDICO, SENHA
+FROM (SELECT * FROM MEDICO 
+	  INNER JOIN PESSOA
+      ON(PESSOA.ID_PESSOA = MEDICO.FK_PESSOA_ID_PESSOA )) AS MEDICO
+```
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/subquery2.png "subquery2")<br>
+
+* 3° Subconsulta
+```
+SELECT NM_PESSOA, TIPO_EXAME, CRM_MEDICO
+FROM (SELECT * FROM EXAME_PACIENTE
+	 INNER JOIN PESSOA
+	 ON (PESSOA.ID_PESSOA = EXAME_PACIENTE.ID_PESSOA)
+	 INNER JOIN EXAME
+	 ON (EXAME.CD_EXAME = EXAME_PACIENTE.CD_EXAME)) AS EXAME
+```
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/subquery3.png "subquery3")<br>
+
+
 
 #### 9.11 Relatórios e Gráficos
 * <b> Relatórios e Gráficos </b> <br>
