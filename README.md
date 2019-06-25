@@ -308,9 +308,8 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 <b> Consultas de renomear tabelas ou campos </b>
 
 * 1° Consulta <br>
-`SELECT NM_CONTATO AS CELULAR FROM UNIDADE`
-`WHERE ID_TIPO = 103` <br>
-
+`SELECT NM_CONTATO AS CELULAR FROM CONTATO WHERE CD_TIPO = 103` <br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select_celular.png "select celular")<br>
 
 * 2° Consulta <br>
 `SELECT DT_EXAME AS DATA FROM EXAME_PACIENTE` <br>
