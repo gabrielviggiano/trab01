@@ -528,6 +528,44 @@ GROUP BY ID_PESSOA, CD_TIPO, NM_CONTATO
 ![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/group6.png "group6")<br>
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+
+* 1° Consulta
+```
+SELECT PESSOA.NM_PESSOA, UNIDADE.CNPJ, UNIDADE.CEP FROM UNIDADE
+LEFT JOIN PESSOA
+ON (UNIDADE.FK_PESSOA_ID_PESSOA = PESSOA.ID_PESSOA)
+```
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/leftjoin1.png "left1")<br>
+
+* 2° Consulta
+```
+SELECT PESSOA.NM_PESSOA, MEDICO.CD_ESPECIALIDADE, MEDICO.CRM_MEDICO, MEDICO.SENHA FROM MEDICO
+LEFT JOIN PESSOA
+ON (MEDICO.FK_PESSOA_ID_PESSOA = PESSOA.ID_PESSOA)
+```
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/leftjoin2.png "left2")<br>
+
+* 3° Consulta
+```
+SELECT EXAME_PACIENTE.CD_EXAME_PACIENTE, PESSOA.NM_PESSOA AS NOME, EXAME.TIPO_EXAME, EXAME_PACIENTE.CRM_MEDICO, EXAME_PACIENTE.DT_EXAME
+FROM EXAME_PACIENTE
+RIGHT JOIN PESSOA
+ON(EXAME_PACIENTE.ID_PESSOA = PESSOA.ID_PESSOA)
+INNER JOIN EXAME
+ON (EXAME_PACIENTE.CD_EXAME = EXAME.CD_EXAME)
+```
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/rightjoin1.png "right1")<br>
+
+* 4° Consulta
+```
+SELECT PESSOA.NM_PESSOA, ESPECIALIDADE.NM_ESPECIALIDADE, MEDICO.CRM_MEDICO, MEDICO.SENHA FROM MEDICO
+LEFT JOIN ESPECIALIDADE
+ON (ESPECIALIDADE.CD_ESPECIALIDADE = MEDICO.CD_ESPECIALIDADE)
+LEFT JOIN PESSOA
+ON (PESSOA.ID_PESSOA = MEDICO.FK_PESSOA_ID_PESSOA)
+```
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/leftjoin3.png "left3")<br>
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
