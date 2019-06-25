@@ -356,11 +356,11 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 * 1° Consulta <br>
 `SELECT CD_EXAME, ID_PESSOA, (AGE(CURRENT_DATE,DT_EXAME)) AS TEMPO FROM EXAME_PACIENTE` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/data1.png "data1")<br>
 
 * 2° Consulta <br>
 `SELECT CD_EXAME_PACIENTE, ID_PESSOA, EXTRACT(DAY FROM DT_EXAME) AS "'DIA DA CONSULTA'" FROM EXAME_PACIENTE` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/data2.png "data2")<br>
 
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
