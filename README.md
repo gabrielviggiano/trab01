@@ -312,15 +312,14 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 `WHERE ID_TIPO = 103` <br>
 
 
-
 * 2° Consulta <br>
 `SELECT DT_EXAME AS DATA FROM EXAME_PACIENTE` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20dt%20exame%20as%20data.png "select data")<br>
 
 
 * 3° Consulta <br>
 `SELECT ID_PESSOA AS CODIGO, NM_PESSOA AS NOME FROM PESSOA` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/select%20id%20pessoa%20as%20codigo.png "select nome")<br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
