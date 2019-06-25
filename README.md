@@ -370,59 +370,58 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 `UPDATE EXAME SET PRECO = 250 WHERE CD_EXAME = 4` <br>
 
 <i> Antes </i> <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update1-1.png "update_1_antes")<br>
 
 
 <i> Depois </i> <br>
-
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update1-2.png "update_1_depois")<br>
 
 * 2° Update <br>
 `UPDATE PESSOA SET NM_PESSOA = 'MELISSA BERNARDES' WHERE ID_PESSOA = 10`<br>
 
 <i> Antes </i> <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update2-1.png "update_2_antes")<br>
 
 
 <i> Depois </i> <br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update2-2.png "update_2_depois")<br>
 
 * 3° Update <br>
 `UPDATE PESSOA SET NM_PESSOA = 'HENRIQUE CASTRO' WHERE ID_PESSOA = 9` <br>
 
 <i> Antes </i> <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update3-1.png "update_3_antes")<br>
 
 
 <i> Depois </i> <br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update3-2.png "update_3_depois")<br>
 
 * 4° Update <br>
-`UPDATE PACIENTE SET SENHA = 'uajsw123' WHERE ID_PESSOA = 1` <br>
+`UPDATE PACIENTE SET SENHA = 'uajsw123' WHERE FK_PESSOA_ID_PESSOA = 1` <br>
 
 <i> Antes </i> <br>
-
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update4-1.png "update_4_antes")<br>
 
 <i> Depois </i> <br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update4-2.png "update_4_depois")<br>
 
 * 5° Update <br>
-`UPDATE PACIENTE SET SENHA = 'senha098' WHERE ID_PESSOA = 3` <br>
+`UPDATE PACIENTE SET SENHA = 'senha098' WHERE FK_PESSOA_ID_PESSOA = 3` <br>
 
 <i> Antes </i> <br>
-
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update5-1.png "update_5_antes")<br>
 
 <i> Depois </i> <br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update5-2.png "update_5_depois")<br>
 
 * 6° Update <br>
-`UPDATE MEDICO SET CRM_MEDICO = '18931 ES' WHERE ID_PESSOA = 11` <br>
+`UPDATE MEDICO SET CRM_MEDICO = '18931 ES' WHERE FK_PESSOA_ID_PESSOA = 11` <br>
 
 <i> Antes </i> <br>
-
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update6-1.png "update_6_antes")<br>
 
 <i> Depois </i> <br>
-
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/update6-2.png "update_6_depois")<br>
 
 
 
