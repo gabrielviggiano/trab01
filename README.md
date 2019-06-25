@@ -174,9 +174,9 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 #### 8.4 Principais fluxos de informação e principais tabelas do sistema
 
 <b> Principais fluxos de dados em desenvolvimento: </b>
-* fluxo 1
-* fluxo 2
-* fluxo 3
+* Pessoa: Inserção de todos os tipos de pessoas do aplicativo, seja unidade, paciente ou medico.
+* Cd_Exame_Paciente: Inserção de todo os exames, realizados ou não.
+* Contato: Inserção de todos os dados que o cliente informar, podendo ser mais de 1 por pessoa.
 
 <b> Tabelas que mais conterão dados no sistema: </b>
 * Pessoa
