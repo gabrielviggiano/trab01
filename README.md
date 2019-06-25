@@ -328,27 +328,29 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 * 1° Consulta <br>
 `SELECT * FROM PESSOA`
 `WHERE NM_PESSOA LIKE 'P%'` <br> 
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/nome%20like%20p.png "select like nomep")<br>
 
 
 * 2° Consulta <br>
 `SELECT * FROM PESSOA` 
 `where NM_PESSOA LIKE 'L%'` <br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/nome%20like%20l.png "select like nomel")<br>
 
 
 * 3° Consulta <br>
 `SELECT * FROM EXAME`
 `WHERE TIPO_EXAME LIKE '%Completo'` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/like%20completo.png "select like completo")<br>
 
 * 4° Consulta <br>
 `SELECT * FROM BAIRRO`
 `WHERE NM_BAIRRO LIKE 'JARDIM%'` <br>
-
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/like%20jardim.png "select like jardim")<br>
 
 * 5° Consulta <br>
 `SELECT * FROM CIDADE`
 `WHERE NM_CIDADE LIKE 'VILA%'` <br>
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/like%20vila.png "select like vila")<br>
 
 <b> Função para cada tipo DATA </b>
 
