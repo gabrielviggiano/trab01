@@ -433,37 +433,47 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 SELECT EXAME_PACIENTE.CD_EXAME_PACIENTE, PESSOA.NM_PESSOA AS NOME, EXAME.TIPO_EXAME, EXAME_PACIENTE.CRM_MEDICO, EXAME_PACIENTE.DT_EXAME
 FROM EXAME_PACIENTE
 INNER JOIN PESSOA
-ON(EXAME_PACIENTE.ID_PESSOA = PESSOA.ID_PESSOA)
+ON(EXAME_PACIENTE.FK_PESSOA_ID_PESSOA = PESSOA.ID_PESSOA)
 INNER JOIN EXAME
 ON (EXAME_PACIENTE.CD_EXAME = EXAME.CD_EXAME)
 ```
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/join1.png "join1")<br>
+
 * 2° Consulta <br>
 ```
 SELECT PESSOA.NM_PESSOA, PACIENTE.CPF_PACIENTE, PACIENTE.SENHA FROM PACIENTE
 INNER JOIN PESSOA
-ON (PACIENTE.ID_PESSOA = PESSOA.ID_PESSOA)
+ON (PACIENTE.FK_PESSOA_ID_PESSOA = PESSOA.ID_PESSOA)
 WHERE ID_PESSOA > 5
 ```
+
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/join2.png "join2")<br>
 
 * 3° Consulta <br>
 ```
 SELECT PESSOA.NM_PESSOA, MEDICO.CD_ESPECIALIDADE, MEDICO.CRM_MEDICO, MEDICO.SENHA FROM MEDICO
 INNER JOIN PESSOA
-ON (MEDICO.ID_PESSOA = PESSOA.ID_PESSOA)
+ON (MEDICO.FK_PESSOA_ID_PESSOA = PESSOA.ID_PESSOA)
 ```
+
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/join3.png "join2")<br>
 
 * 4° Consulta <br>
 ```
 SELECT PESSOA.NM_PESSOA, UNIDADE.CNPJ, UNIDADE.CEP FROM UNIDADE
 INNER JOIN PESSOA
-ON (UNIDADE.ID_PESSOA = PESSOA.ID_PESSOA)
+ON (UNIDADE.FK_PESSOA_ID_PESSOA = PESSOA.ID_PESSOA)
 ```
+
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/join4.png "join2")<br>
 
 * 5° Consulta <br>
 ```
 SELECT * FROM EXAME
 ORDER BY PRECO
 ```
+![Alt text](https://raw.githubusercontent.com/gabrielviggiano/trab01-1/master/images/order1.png "order1")<br>
+
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 * 1° Consulta <br>
