@@ -333,7 +333,7 @@ Mockup realizado para o ambiente mobile do aplicativo E-Xames.<br>
 
 * 2° Consulta <br>
 `SELECT * FROM PESSOA` 
-`where NM_PESOA LIKE 'L%` <br>
+`where NM_PESSOA LIKE 'L%'` <br>
 
 
 * 3° Consulta <br>
